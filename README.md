@@ -56,7 +56,29 @@ The design is a 2³ factorial over three information blocks, each added to the h
 - **KRX:** daily foreign net-buy value summed over the semiconductor firms.
 - **LDA:** daily topic shares from Korean and English news.
 - **LLM:** daily sentiment from EXAONE 3.5 7.8B for four sources: MCST NOW, NAVER News, GDELT and NYT.
-- **AUX:** release-dated macro-financial variables (global equity returns, FX, rates, CPI, GDP, semiconductor production, unemployment, VKOSPI, EPU, GPR).
+- **AUX:** 13 release-dated macro-financial variables, listed below.
+
+### Auxiliary variables
+
+The 13 variables of the AUX block, as listed in the paper. The last column shows whether the original series is in [`data/macro_public/`](data/macro_public).
+
+| No. | Group | Variable | Freq. | In this repo |
+|:-:|---|---|:-:|:-:|
+| 1 | Global equity markets | S&P 500 return (log) | D | ✗ licence |
+| 2 | Global equity markets | Global stock market return (log) | D | ✗ licence |
+| 3 | Global equity markets | Philadelphia Semiconductor Index return (log) | D | ✗ licence |
+| 4 | Rates & FX | KRW/USD exchange rate | D | ✓ |
+| 5 | Rates & FX | 3-year KTB yield minus policy rate | D | ✓ |
+| 6 | Macro fundamentals | CPI inflation (y/y) | M | ✓ |
+| 7 | Macro fundamentals | Nominal GDP growth (y/y) | Q | ✓ |
+| 8 | Macro fundamentals | Unemployment rate | M | ✓ |
+| 9 | Macro fundamentals | Semiconductor production growth (y/y) | M | ✓ |
+| 10 | Risk & uncertainty | VKOSPI (implied volatility) | D | ✗ licence |
+| 11 | Risk & uncertainty | Global economic policy uncertainty | M | ✓ |
+| 12 | Risk & uncertainty | Geopolitical risk, global | M | ✓ |
+| 13 | Risk & uncertainty | Geopolitical risk, Korea | M | ✓ |
+
+D = daily, M = monthly, Q = quarterly.
 
 ### Models
 
@@ -146,6 +168,14 @@ If you use this code, please cite the paper (full reference to be added on publi
   note    = {Under review}
 }
 ```
+
+## Acknowledgements
+
+This work was carried out at the [**IMPACT Lab**](https://impact.gist.ac.kr/main/main.php) led by Prof. Duk-Jo Kong at the Gwangju Institute of Science and Technology (GIST). We thank the members of the lab for their discussions and support throughout the project.
+
+We are especially grateful to [**Prof. Seohyun Lee**](https://www.kdischool.ac.kr/faculty/view.es?mid=a10401010000&type=1&page=2&emp_no=311000339) of the KDI School of Public Policy and Management for her guidance on the macro-financial side of this work, including economic uncertainty and geopolitical risk.
+
+We also thank the Ministry of Culture, Sports and Tourism of the Republic of Korea for providing the MCST NOW Platform news data.
 
 ## Licence
 
