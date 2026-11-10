@@ -16,6 +16,33 @@
 
 </div>
 
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" valign="middle" width="50%"><img src="assets/photo_john_park.png" width="140" alt="John Park"/></td>
+    <td align="center" valign="middle" width="50%"><img src="assets/photo_maximiliano_islas_solis.png" width="140" alt="Maximiliano Islas Solis"/></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="50%"><h3>John Park</h3><b>박준</b></td>
+    <td align="center" valign="middle" width="50%"><h3>Maximiliano Islas Solis</h3><b>MAX</b></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="50%">M.S. Course · <a href="https://impact.gist.ac.kr/team/students.php">GIST IMPACT Lab</a></td>
+    <td align="center" valign="middle" width="50%">M.S. Course · <a href="https://impact.gist.ac.kr/team/students.php">GIST IMPACT Lab</a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="50%">Semiconductor &amp; Financial<br/>Data Forecasting<br/>AI Strategy &amp; Data Analytics</td>
+    <td align="center" valign="middle" width="50%">Data Analysis &amp;<br/>ML Econometrics</td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="50%"><a href="https://github.com/parkjohn10277"><b>@parkjohn10277</b></a></td>
+    <td align="center" valign="middle" width="50%"><a href="https://github.com/MaximilianoIS"><b>@MaximilianoIS</b></a></td>
+  </tr>
+</table>
+
+</div>
+
 ---
 
 This repository holds the code, public data and aggregate results of the paper. The paper forecasts **whether foreign investors are net buyers or net sellers** of Korean semiconductor stocks on the next trading day. It also asks which information drives the forecast: **macro-financial variables**, **LDA news topics**, or **LLM news sentiment**.
