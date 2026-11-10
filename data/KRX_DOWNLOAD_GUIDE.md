@@ -4,9 +4,7 @@ KRX's terms of use do not allow the firm-level investor-type trading records to 
 
 ## 1. Firms
 
-`krx_firm_list.csv` lists the firms whose records make up the target series used in the paper: the number used in the code, the six-digit stock code, and the Korean and English names.
-
-There are 149 firms with trading records. Numbers run from 1 to 150 with No. 131 unused, so that the numbering matches the folder and column names in the code.
+`krx_firm_list.csv` lists the 150 firms: the number used in the code, the six-digit stock code, and the Korean and English names. It is the same list as Supplementary Table S1.
 
 ## 2. Download from the KRX Data Marketplace
 
@@ -53,8 +51,8 @@ data/krx_raw/
   61~100/
   101~150/
     ...
-    130_후성/
-    132_한솔케미칼/
+    130_RFHIC/
+    131_큐에스아이/
     ...
 ```
 

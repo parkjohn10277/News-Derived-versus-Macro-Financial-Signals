@@ -98,7 +98,7 @@ Every model is run with five seeds (42–46): 10 models × 8 feature sets × 5 s
 │   └── 08_figures_tables/     scripts for every figure and table in the paper
 ├── data/
 │   ├── macro_public/          original public macro series (KOSIS, Bank of Korea, EPU, GPR)
-│   ├── krx_firm_list.csv      the 149 firms in the KRX panel (stock code, Korean and English name)
+│   ├── krx_firm_list.csv      the 150 firms (stock code, Korean and English name; Supplementary Table S1)
 │   ├── KRX_DOWNLOAD_GUIDE.md  how to download and rebuild the KRX flow series
 │   └── input_schema.md        column layout of the model input panel
 ├── results/                   all metrics and tests behind the tables (CSV / TXT / LaTeX)
