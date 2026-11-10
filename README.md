@@ -175,6 +175,16 @@ If you use this code, please cite the paper (full reference to be added on publi
   <a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="180" alt="IMPACT Lab"></a>
 </p>
 
+<p align="center">
+  <a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="150" alt="Prof. Duk-Jo Kong"></a>
+</p>
+
+<p align="center">
+  <b>Prof. Duk-Jo Kong</b> (공득조)<br>
+  Vice Dean, Assistant Professor<br>
+  GIST AI Policy &amp; Strategy Graduate School (AIX School)
+</p>
+
 This work was carried out at the [**IMPACT Lab**](https://impact.gist.ac.kr/main/main.php) led by Prof. Duk-Jo Kong at the Gwangju Institute of Science and Technology (GIST). We thank the members of the lab for their discussions and support throughout the project.
 
 We are especially grateful to [**Prof. Seohyun Lee**](https://www.kdischool.ac.kr/faculty/view.es?mid=a10401010000&type=1&page=2&emp_no=311000339) of the KDI School of Public Policy and Management for her guidance on the macro-financial side of this work, including economic uncertainty and geopolitical risk.
