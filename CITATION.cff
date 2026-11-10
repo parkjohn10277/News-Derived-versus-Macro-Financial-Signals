@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
 title: "Code and public data for: News-Derived versus Macro-Financial Signals"
 license: MIT
-repository-code: "https://github.com/parkjohn10277/korean-semiconductor-foreign-flow"
+repository-code: "https://github.com/parkjohn10277/News-Derived-versus-Macro-Financial-Signals"
 authors:
   - family-names: Park
     given-names: John
