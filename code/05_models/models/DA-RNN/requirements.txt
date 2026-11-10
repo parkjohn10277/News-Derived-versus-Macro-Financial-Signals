@@ -1,0 +1,11 @@
+# Runtime is the conda env: <your conda env>  (Python 3.11)
+# These are already installed there; listed for reproducibility.
+torch>=2.0
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+statsmodels>=0.14
+scipy>=1.11
+matplotlib>=3.7
+pyyaml>=6.0
+pyarrow>=14.0

@@ -1,0 +1,10 @@
+block,family,W1,W2,W3,W4,all
+AUX,LSTM-based,0.03,2.65,2.31,3.96,2.24
+AUX,Machine learning,3.74,4.7,2.69,7.21,4.59
+AUX,Transformer,-0.27,-0.08,0.03,1.47,0.29
+LDA,LSTM-based,-4.04,-2.1,0.75,-0.44,-1.46
+LDA,Machine learning,1.2,-1.31,-0.12,-2.86,-0.77
+LDA,Transformer,0.25,0.25,0.64,-0.41,0.18
+LLM,LSTM-based,-1.17,-1.42,-0.18,-0.59,-0.84
+LLM,Machine learning,1.6,-0.81,-0.39,0.44,0.21
+LLM,Transformer,0.0,-0.07,-0.69,-0.04,-0.2

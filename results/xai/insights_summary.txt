@@ -1,0 +1,67 @@
+Follow-up analyses, E7 (10 models x 5 seeds, test period)
+test days 278, models ['random_forest', 'xgboost', 'lightgbm', 'itransformer', 'lstm', 'cnn_lstm', 'gru_lstm', 'bigru_lstm', 'bilstm', 'darnn']
+
+=== Q1  accuracy by size of the actual flow (test days, seed-ensemble per model)
+            auc     da      flow   n
+quintile                            
+Q1        0.615  0.552    63.973  56
+Q2        0.608  0.580   190.787  55
+Q3        0.499  0.523   376.392  56
+Q4        0.712  0.656   906.762  55
+Q5        0.902  0.850  2299.399  56
+  Q5 - Q1 AUC: mean +0.287, models higher on large days 10/10, Wilcoxon p = 0.0020
+  Q5 - Q1 DA: mean +0.298, models higher on large days 10/10, Wilcoxon p = 0.0020
+  group contribution to AUC (x100), mean of models, top vs bottom tercile of |flow|:
+flow_days              large  small
+Flow history           15.83   5.73
+Global equity markets   9.91   4.33
+Rates & FX              2.06   1.48
+Macro fundamentals      0.61   1.30
+Risk & uncertainty      4.23   0.51
+Domestic news          -0.61  -0.61
+Foreign news           -3.74  -1.86
+Total                  28.29  10.88
+
+=== Q2  SHAP dependence: response to the most recent value (all days, seeds pooled)
+  sox_logret: slope below 0 = 1.845, above 0 = 1.308 (pp of P(net buy) per x-axis unit); models steeper below 0: 7/10, Wilcoxon p = 0.0273
+      mean |SHAP| on down days 5.47 pp vs up days 4.63 pp; larger on down days in 10/10 models
+  foreign_net_buy: slope below 0 = 6.720, above 0 = 9.737 (pp of P(net buy) per x-axis unit); models steeper below 0: 0/10, Wilcoxon p = 0.0020
+      mean |SHAP| on down days 9.59 pp vs up days 8.96 pp; larger on down days in 10/10 models
+
+=== Q3  news groups on extreme- vs calm-news days (test days, terciles of |sentiment z|)
+  Foreign news: |z| calm <= 0.63 (93 days), extreme >= 1.20 (93 days)
+  Domestic news: |z| calm <= 0.32 (71 days), extreme >= 0.66 (71 days)
+  Foreign news contribution (x100): calm +0.76, extreme -6.01; higher on extreme days in 0/10 models, Wilcoxon p = 0.0020
+      model AUC-0.5 (x100): calm 13.43, extreme 19.03
+      all groups (x100):
+news_days               calm  extreme
+Flow history            3.57     9.60
+Global equity markets   5.57     8.89
+Rates & FX              0.96     2.70
+Macro fundamentals      2.09     0.46
+Risk & uncertainty      0.86     4.48
+Domestic news          -0.38    -1.11
+Foreign news            0.76    -6.01
+Total                  13.43    19.03
+  Domestic news contribution (x100): calm +0.20, extreme -2.42; higher on extreme days in 1/10 models, Wilcoxon p = 0.0059
+      model AUC-0.5 (x100): calm 10.87, extreme 25.31
+      all groups (x100):
+news_days               calm  extreme
+Flow history            0.07    11.75
+Global equity markets   7.09    12.36
+Rates & FX              1.62     2.70
+Macro fundamentals      2.95    -0.22
+Risk & uncertainty      0.78     2.83
+Domestic news           0.20    -2.42
+Foreign news           -1.84    -1.67
+Total                  10.87    25.31
+
+=== Q6  agreement between models (test days, seed-ensemble per model)
+  Spearman correlation of predicted probabilities: median 0.84, range 0.67-0.98
+  single-model AUC: best 0.7051 (CNN-LSTM), mean 0.6844
+  ensemble (mean prob, 10 models) AUC 0.6989, DA 0.6511
+  days by number of models correct (0..10): {0: 49, 1: 15, 2: 14, 3: 9, 4: 4, 5: 10, 6: 12, 7: 16, 8: 17, 9: 18, 10: 114}
+  hard days (<=2 models correct): 78 (28%); easy days (>=8 correct): 149 (54%)
+    hard  median |flow|   291.3 bn KRW, median |prev SOX| 1.10%, share net-buy 0.62
+    easy  median |flow|   550.1 bn KRW, median |prev SOX| 1.54%, share net-buy 0.37
+    all   median |flow|   376.4 bn KRW, median |prev SOX| 1.27%, share net-buy 0.44

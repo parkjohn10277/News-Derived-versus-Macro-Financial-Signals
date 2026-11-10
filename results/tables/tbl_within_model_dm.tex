@@ -1,0 +1,29 @@
+\begin{table}[t]
+\caption{Within-model tests of the information blocks, DM (test period). For each model, $\Delta$ is the mean change in Brier loss ($\times 100$; negative values are improvements) from adding the block over four matched experiment pairs and five seeds, and $p$ is the Cauchy-combined $p$-value of the 20 Diebold--Mariano tests. Bold and italic entries mark combined $p<0.05$ for an improvement and a deterioration, respectively.}
+\label{tbl:within_dm}
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{} l rr rr rr @{}}
+\toprule
+ & \multicolumn{2}{c}{AUX} & \multicolumn{2}{c}{LLM} & \multicolumn{2}{c}{LDA} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+Model & $\Delta$ & $p$ & $\Delta$ & $p$ & $\Delta$ & $p$ \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{Machine learning}} \\
+\quad Random Forest & {\boldmath\bfseries $-$1.68} & {\boldmath\bfseries $<$0.001} & $-$0.05 & 0.527 & \textit{\phantom{$-$}0.67} & \textit{$<$0.001} \\
+\quad XGBoost & {\boldmath\bfseries $-$1.80} & {\boldmath\bfseries $<$0.001} & $-$0.12 & 0.704 & \phantom{$-$}0.51 & 0.158 \\
+\quad LightGBM & {\boldmath\bfseries $-$2.25} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.08 & 0.117 & \textit{\phantom{$-$}0.40} & \textit{0.018} \\
+\addlinespace[2pt]
+\multicolumn{7}{@{}l}{\textit{Transformer}} \\
+\quad iTransformer & {\boldmath\bfseries $-$0.50} & {\boldmath\bfseries 0.017} & \phantom{$-$}0.05 & 0.319 & \phantom{$-$}0.15 & 0.281 \\
+\addlinespace[2pt]
+\multicolumn{7}{@{}l}{\textit{LSTM-based}} \\
+\quad DA-RNN & \textit{\phantom{$-$}0.59} & \textit{$<$0.001} & \textit{\phantom{$-$}0.68} & \textit{$<$0.001} & \textit{\phantom{$-$}0.32} & \textit{$<$0.001} \\
+\quad BiLSTM & {\boldmath\bfseries $-$2.04} & {\boldmath\bfseries $<$0.001} & \textit{\phantom{$-$}0.20} & \textit{0.011} & $-$0.02 & 0.507 \\
+\quad LSTM & {\boldmath\bfseries $-$1.86} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.22 & 0.070 & $-$0.06 & 0.695 \\
+\quad CNN-LSTM & {\boldmath\bfseries $-$2.00} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.24 & 0.064 & \phantom{$-$}0.01 & 0.370 \\
+\quad GRU-LSTM & {\boldmath\bfseries $-$1.54} & {\boldmath\bfseries 0.006} & $-$0.02 & 0.703 & $-$0.10 & 0.889 \\
+\quad BiGRU-LSTM & {\boldmath\bfseries $-$1.39} & {\boldmath\bfseries 0.003} & {\boldmath\bfseries $-$0.07} & {\boldmath\bfseries 0.045} & \phantom{$-$}0.65 & 0.070 \\
+\bottomrule
+\end{tabular}
+\end{table}

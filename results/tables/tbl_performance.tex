@@ -1,0 +1,47 @@
+\begin{table*}[t]
+\caption{Out-of-sample classification performance of all models across the feature sets (test period, mean over five seeds). For each model and metric, the best feature set is in bold and the second best in italics.}
+\label{tbl:performance}
+\centering\scriptsize
+\setlength{\tabcolsep}{3.6pt}
+\renewcommand{\arraystretch}{0.95}
+\begin{tabular}{@{} l l cccccccccc @{}}
+\toprule
+ & & \multicolumn{3}{c}{Machine learning} & \multicolumn{1}{c}{Transformer} & \multicolumn{6}{c}{LSTM-based} \\
+\cmidrule(lr){3-5} \cmidrule(lr){6-6} \cmidrule(lr){7-12}
+Exp. & Metric & RF & XGB & LGBM & iTransformer & DA-RNN & BiLSTM & LSTM & CNN-LSTM & GRU-LSTM & BiGRU-LSTM \\
+\midrule
+\textbf{E0} & AUC & 0.658 & 0.640 & 0.627 & 0.654 & \textit{0.640} & 0.653 & 0.650 & 0.652 & 0.648 & 0.649 \\
+KRX & MCC & 0.210 & 0.215 & 0.169 & 0.217 & \textbf{0.211} & 0.265 & 0.229 & 0.230 & 0.211 & 0.210 \\
+ & DA & 0.614 & 0.616 & 0.594 & 0.613 & \textbf{0.609} & 0.637 & 0.618 & 0.618 & 0.608 & 0.608 \\
+\midrule
+\textbf{E1} & AUC & \textit{0.707} & \textit{0.703} & \textbf{0.718} & \textbf{0.674} & 0.627 & \textit{0.706} & \textbf{0.704} & \textit{0.700} & 0.691 & \textbf{0.696} \\
++AUX & MCC & \textbf{0.296} & \textit{0.292} & \textbf{0.303} & \textbf{0.261} & 0.142 & 0.282 & 0.254 & 0.256 & 0.250 & \textit{0.255} \\
+ & DA & \textbf{0.657} & \textbf{0.656} & \textbf{0.658} & \textbf{0.637} & 0.584 & 0.650 & 0.638 & 0.639 & 0.634 & \textit{0.633} \\
+\midrule
+\textbf{E2} & AUC & 0.594 & 0.601 & 0.624 & 0.650 & \textbf{0.646} & 0.650 & 0.650 & 0.642 & 0.645 & 0.644 \\
++LDA & MCC & 0.205 & 0.208 & 0.228 & 0.218 & 0.192 & 0.266 & 0.243 & 0.221 & 0.215 & 0.205 \\
+ & DA & 0.616 & 0.615 & 0.621 & 0.612 & \textit{0.606} & 0.641 & 0.630 & 0.619 & 0.616 & 0.612 \\
+\midrule
+\textbf{E3} & AUC & 0.651 & 0.646 & 0.640 & 0.655 & 0.625 & 0.648 & 0.644 & 0.646 & 0.645 & 0.648 \\
++LLM & MCC & 0.188 & 0.217 & 0.216 & 0.244 & \textit{0.202} & 0.249 & 0.240 & 0.227 & 0.239 & 0.233 \\
+ & DA & 0.601 & 0.615 & 0.616 & 0.624 & 0.605 & 0.627 & 0.622 & 0.619 & 0.623 & 0.617 \\
+\midrule
+\textbf{E4} & AUC & 0.609 & 0.615 & 0.621 & 0.654 & 0.621 & 0.650 & 0.641 & 0.638 & 0.648 & 0.638 \\
++LDA+LLM & MCC & 0.225 & 0.215 & 0.210 & 0.219 & 0.167 & 0.258 & 0.217 & 0.223 & 0.212 & 0.201 \\
+ & DA & 0.623 & 0.618 & 0.612 & 0.612 & 0.591 & 0.637 & 0.619 & 0.619 & 0.612 & 0.607 \\
+\midrule
+\textbf{E5} & AUC & 0.677 & 0.680 & 0.704 & 0.666 & 0.636 & \textbf{0.707} & 0.699 & 0.699 & \textit{0.695} & 0.678 \\
++LDA+AUX & MCC & 0.277 & 0.256 & 0.266 & \textit{0.247} & 0.177 & \textit{0.302} & \textbf{0.293} & \textbf{0.310} & \textit{0.281} & 0.254 \\
+ & DA & \textit{0.648} & 0.639 & 0.638 & \textit{0.629} & 0.597 & 0.656 & \textbf{0.652} & \textbf{0.660} & \textit{0.642} & 0.627 \\
+\midrule
+\textbf{E6} & AUC & \textbf{0.714} & \textbf{0.710} & \textit{0.716} & \textit{0.668} & 0.629 & \textbf{0.707} & \textit{0.700} & 0.697 & \textbf{0.696} & \textit{0.688} \\
++LLM+AUX & MCC & \textit{0.279} & \textbf{0.295} & \textit{0.282} & 0.232 & 0.164 & \textbf{0.306} & 0.271 & 0.261 & \textbf{0.287} & \textbf{0.268} \\
+ & DA & \textit{0.648} & \textit{0.655} & \textit{0.648} & 0.620 & 0.570 & \textbf{0.662} & \textit{0.646} & 0.638 & \textbf{0.643} & \textbf{0.634} \\
+\midrule
+\textbf{E7} & AUC & 0.684 & 0.677 & 0.702 & 0.665 & 0.599 & 0.700 & 0.694 & \textbf{0.701} & 0.694 & 0.668 \\
+All & MCC & 0.255 & 0.249 & 0.263 & 0.234 & 0.088 & \textbf{0.306} & \textit{0.283} & \textit{0.291} & 0.267 & 0.226 \\
+ & DA & 0.637 & 0.634 & 0.637 & 0.621 & 0.562 & \textit{0.659} & 0.645 & \textit{0.652} & 0.637 & 0.622 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\raggedright\footnotesize\textit{Note:} KRX = foreign net-buying history; AUX = 13 auxiliary market and macro variables; LDA = 11 topic intensities; LLM = 4 sentiment series. AUC = area under the ROC curve; MCC = Matthews correlation coefficient; DA = directional accuracy.
+\end{table*}

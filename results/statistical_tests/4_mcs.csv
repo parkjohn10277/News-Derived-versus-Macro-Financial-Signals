@@ -1,0 +1,161 @@
+exp,loss,model,mean_loss,mcs_pvalue,in_90pct_MCS
+E0,brier,Random Forest,0.23054,0.6744,True
+E0,brier,XGBoost,0.234802,0.6744,True
+E0,brier,DA-RNN,0.234981,0.6744,True
+E0,brier,BiLSTM,0.236918,0.6744,True
+E0,brier,LightGBM,0.237103,0.6744,True
+E0,brier,LSTM,0.237824,0.6744,True
+E0,brier,BiGRU-LSTM,0.23785,0.6744,True
+E0,brier,GRU-LSTM,0.238908,0.6744,True
+E0,brier,CNN-LSTM,0.239116,0.6744,True
+E0,brier,iTransformer,0.239809,0.6744,True
+E0,logloss,Random Forest,0.653439,0.6346,True
+E0,logloss,DA-RNN,0.662356,0.6346,True
+E0,logloss,XGBoost,0.662932,0.6346,True
+E0,logloss,LightGBM,0.66677,0.6346,True
+E0,logloss,BiGRU-LSTM,0.668636,0.6346,True
+E0,logloss,BiLSTM,0.669494,0.6346,True
+E0,logloss,LSTM,0.670267,0.6346,True
+E0,logloss,GRU-LSTM,0.671684,0.6346,True
+E0,logloss,CNN-LSTM,0.673474,0.6346,True
+E0,logloss,iTransformer,0.679902,0.6346,True
+E1,brier,LightGBM,0.211228,0.2714,True
+E1,brier,XGBoost,0.215563,0.2714,True
+E1,brier,Random Forest,0.216022,0.2714,True
+E1,brier,BiLSTM,0.216416,0.2714,True
+E1,brier,LSTM,0.218827,0.2714,True
+E1,brier,CNN-LSTM,0.219346,0.2714,True
+E1,brier,BiGRU-LSTM,0.220903,0.2714,True
+E1,brier,GRU-LSTM,0.222191,0.2714,True
+E1,brier,iTransformer,0.234471,0.0544,False
+E1,brier,DA-RNN,0.235019,0.0092,False
+E1,logloss,LightGBM,0.60877,0.1918,True
+E1,logloss,XGBoost,0.619132,0.1918,True
+E1,logloss,Random Forest,0.621954,0.1918,True
+E1,logloss,BiLSTM,0.622993,0.1918,True
+E1,logloss,CNN-LSTM,0.629274,0.1918,True
+E1,logloss,LSTM,0.630095,0.1918,True
+E1,logloss,BiGRU-LSTM,0.632282,0.1918,True
+E1,logloss,GRU-LSTM,0.639484,0.1918,True
+E1,logloss,DA-RNN,0.660845,0.0362,False
+E1,logloss,iTransformer,0.663943,0.0974,False
+E2,brier,GRU-LSTM,0.235053,0.497,True
+E2,brier,LSTM,0.235897,0.497,True
+E2,brier,BiLSTM,0.236018,0.497,True
+E2,brier,LightGBM,0.236309,0.497,True
+E2,brier,DA-RNN,0.236434,0.497,True
+E2,brier,iTransformer,0.238116,0.497,True
+E2,brier,Random Forest,0.239757,0.497,True
+E2,brier,XGBoost,0.240227,0.497,True
+E2,brier,CNN-LSTM,0.240564,0.497,True
+E2,brier,BiGRU-LSTM,0.246871,0.497,True
+E2,logloss,GRU-LSTM,0.664584,0.4142,True
+E2,logloss,DA-RNN,0.66507,0.4142,True
+E2,logloss,LightGBM,0.665134,0.4142,True
+E2,logloss,BiLSTM,0.668565,0.4142,True
+E2,logloss,LSTM,0.669425,0.4142,True
+E2,logloss,Random Forest,0.672954,0.4142,True
+E2,logloss,XGBoost,0.674526,0.4142,True
+E2,logloss,iTransformer,0.676096,0.4142,True
+E2,logloss,CNN-LSTM,0.680357,0.4142,True
+E2,logloss,BiGRU-LSTM,0.693881,0.4142,True
+E3,brier,Random Forest,0.234083,0.5394,True
+E3,brier,XGBoost,0.234557,0.5394,True
+E3,brier,LightGBM,0.234831,0.5394,True
+E3,brier,BiGRU-LSTM,0.237808,0.5394,True
+E3,brier,GRU-LSTM,0.238317,0.5394,True
+E3,brier,BiLSTM,0.239764,0.5394,True
+E3,brier,LSTM,0.239872,0.5394,True
+E3,brier,iTransformer,0.240081,0.5394,True
+E3,brier,DA-RNN,0.240745,0.5394,True
+E3,brier,CNN-LSTM,0.242018,0.5394,True
+E3,logloss,Random Forest,0.66163,0.3844,True
+E3,logloss,LightGBM,0.662425,0.3844,True
+E3,logloss,XGBoost,0.662757,0.3844,True
+E3,logloss,BiGRU-LSTM,0.669293,0.3844,True
+E3,logloss,GRU-LSTM,0.672841,0.3844,True
+E3,logloss,BiLSTM,0.677873,0.3844,True
+E3,logloss,LSTM,0.678334,0.3844,True
+E3,logloss,DA-RNN,0.679322,0.3844,True
+E3,logloss,iTransformer,0.684444,0.3844,True
+E3,logloss,CNN-LSTM,0.684731,0.3844,True
+E4,brier,GRU-LSTM,0.233069,0.833,True
+E4,brier,DA-RNN,0.235369,0.833,True
+E4,brier,XGBoost,0.237276,0.833,True
+E4,brier,Random Forest,0.237573,0.833,True
+E4,brier,BiLSTM,0.237823,0.833,True
+E4,brier,BiGRU-LSTM,0.237863,0.833,True
+E4,brier,LSTM,0.238916,0.833,True
+E4,brier,iTransformer,0.239945,0.833,True
+E4,brier,CNN-LSTM,0.240114,0.833,True
+E4,brier,LightGBM,0.242109,0.833,True
+E4,logloss,GRU-LSTM,0.65966,0.887,True
+E4,logloss,DA-RNN,0.662508,0.887,True
+E4,logloss,XGBoost,0.668201,0.887,True
+E4,logloss,Random Forest,0.668426,0.887,True
+E4,logloss,BiGRU-LSTM,0.669148,0.887,True
+E4,logloss,BiLSTM,0.675392,0.887,True
+E4,logloss,LSTM,0.677044,0.887,True
+E4,logloss,LightGBM,0.678857,0.887,True
+E4,logloss,CNN-LSTM,0.679719,0.887,True
+E4,logloss,iTransformer,0.682139,0.887,True
+E5,brier,BiLSTM,0.215981,0.3836,True
+E5,brier,LightGBM,0.217204,0.3836,True
+E5,brier,LSTM,0.217512,0.3836,True
+E5,brier,CNN-LSTM,0.218201,0.3836,True
+E5,brier,XGBoost,0.220648,0.3836,True
+E5,brier,GRU-LSTM,0.220654,0.3836,True
+E5,brier,Random Forest,0.221934,0.3836,True
+E5,brier,BiGRU-LSTM,0.225598,0.3836,True
+E5,brier,DA-RNN,0.237787,0.035,False
+E5,brier,iTransformer,0.237916,0.08,False
+E5,logloss,BiLSTM,0.622285,0.3766,True
+E5,logloss,LightGBM,0.623621,0.3766,True
+E5,logloss,LSTM,0.626735,0.3766,True
+E5,logloss,CNN-LSTM,0.628001,0.3766,True
+E5,logloss,XGBoost,0.631466,0.3766,True
+E5,logloss,GRU-LSTM,0.633491,0.3766,True
+E5,logloss,Random Forest,0.634949,0.3766,True
+E5,logloss,BiGRU-LSTM,0.64261,0.3766,True
+E5,logloss,DA-RNN,0.666409,0.099,False
+E5,logloss,iTransformer,0.676701,0.099,False
+E6,brier,LightGBM,0.211636,0.2452,True
+E6,brier,XGBoost,0.212951,0.2452,True
+E6,brier,Random Forest,0.214134,0.2452,True
+E6,brier,BiLSTM,0.216812,0.2452,True
+E6,brier,GRU-LSTM,0.22016,0.2452,True
+E6,brier,LSTM,0.220165,0.2452,True
+E6,brier,CNN-LSTM,0.221397,0.2452,True
+E6,brier,BiGRU-LSTM,0.22362,0.2452,True
+E6,brier,DA-RNN,0.23285,0.0232,False
+E6,brier,iTransformer,0.235785,0.0392,False
+E6,logloss,LightGBM,0.60976,0.2308,True
+E6,logloss,XGBoost,0.61275,0.2308,True
+E6,logloss,Random Forest,0.617574,0.2308,True
+E6,logloss,BiLSTM,0.624031,0.2308,True
+E6,logloss,GRU-LSTM,0.632185,0.2308,True
+E6,logloss,LSTM,0.632905,0.2308,True
+E6,logloss,CNN-LSTM,0.636812,0.2308,True
+E6,logloss,BiGRU-LSTM,0.639203,0.2308,True
+E6,logloss,DA-RNN,0.657449,0.0808,False
+E6,logloss,iTransformer,0.66805,0.0808,False
+E7,brier,LightGBM,0.217799,0.1972,True
+E7,brier,BiLSTM,0.21798,0.1972,True
+E7,brier,LSTM,0.218814,0.1972,True
+E7,brier,CNN-LSTM,0.219003,0.1972,True
+E7,brier,XGBoost,0.220021,0.1972,True
+E7,brier,GRU-LSTM,0.220998,0.1972,True
+E7,brier,Random Forest,0.221636,0.1972,True
+E7,brier,BiGRU-LSTM,0.227765,0.1972,True
+E7,brier,iTransformer,0.236722,0.0978,False
+E7,brier,DA-RNN,0.241176,0.0016,False
+E7,logloss,LightGBM,0.62402,0.1042,True
+E7,logloss,BiLSTM,0.626719,0.1042,True
+E7,logloss,LSTM,0.628275,0.1042,True
+E7,logloss,XGBoost,0.629608,0.1042,True
+E7,logloss,CNN-LSTM,0.63205,0.1042,True
+E7,logloss,Random Forest,0.633967,0.1042,True
+E7,logloss,GRU-LSTM,0.635307,0.1042,True
+E7,logloss,BiGRU-LSTM,0.648122,0.1042,True
+E7,logloss,iTransformer,0.672794,0.1042,True
+E7,logloss,DA-RNN,0.674087,0.0044,False

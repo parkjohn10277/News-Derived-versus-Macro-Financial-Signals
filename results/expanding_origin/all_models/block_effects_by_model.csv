@@ -1,0 +1,133 @@
+window,model,family,block,d_auc_x100
+W1,BiGRU-LSTM,LSTM-based,AUX,-0.2065
+W1,BiGRU-LSTM,LSTM-based,LLM,-2.1117
+W1,BiGRU-LSTM,LSTM-based,LDA,-6.5596
+W1,BiLSTM,LSTM-based,AUX,2.4981
+W1,BiLSTM,LSTM-based,LLM,-0.4932
+W1,BiLSTM,LSTM-based,LDA,-2.9554
+W1,CNN-LSTM,LSTM-based,AUX,1.39
+W1,CNN-LSTM,LSTM-based,LLM,-1.0157
+W1,CNN-LSTM,LSTM-based,LDA,-3.6131
+W1,DA-RNN,LSTM-based,AUX,-8.4576
+W1,DA-RNN,LSTM-based,LLM,-2.7006
+W1,DA-RNN,LSTM-based,LDA,-2.2994
+W1,GRU-LSTM,LSTM-based,AUX,2.019
+W1,GRU-LSTM,LSTM-based,LLM,-0.5035
+W1,GRU-LSTM,LSTM-based,LDA,-4.186
+W1,LSTM,LSTM-based,AUX,2.9313
+W1,LSTM,LSTM-based,LLM,-0.2224
+W1,LSTM,LSTM-based,LDA,-4.6204
+W1,LightGBM,Machine learning,AUX,3.6049
+W1,LightGBM,Machine learning,LLM,1.2679
+W1,LightGBM,Machine learning,LDA,1.1298
+W1,Logit,Benchmark,AUX,1.9467
+W1,Logit,Benchmark,LLM,-1.2042
+W1,Logit,Benchmark,LDA,-2.6124
+W1,RandomForest,Machine learning,AUX,3.8641
+W1,RandomForest,Machine learning,LLM,1.3482
+W1,RandomForest,Machine learning,LDA,0.276
+W1,XGBoost,Machine learning,AUX,3.7616
+W1,XGBoost,Machine learning,LLM,2.1987
+W1,XGBoost,Machine learning,LDA,2.1882
+W1,iTransformer,Transformer,AUX,-0.2701
+W1,iTransformer,Transformer,LLM,0.0031
+W1,iTransformer,Transformer,LDA,0.2527
+W2,BiGRU-LSTM,LSTM-based,AUX,3.6538
+W2,BiGRU-LSTM,LSTM-based,LLM,-1.8538
+W2,BiGRU-LSTM,LSTM-based,LDA,-2.0932
+W2,BiLSTM,LSTM-based,AUX,3.2939
+W2,BiLSTM,LSTM-based,LLM,-1.0122
+W2,BiLSTM,LSTM-based,LDA,-0.9857
+W2,CNN-LSTM,LSTM-based,AUX,3.2355
+W2,CNN-LSTM,LSTM-based,LLM,-1.3961
+W2,CNN-LSTM,LSTM-based,LDA,-3.1875
+W2,DA-RNN,LSTM-based,AUX,-1.909
+W2,DA-RNN,LSTM-based,LLM,-2.3756
+W2,DA-RNN,LSTM-based,LDA,-2.5878
+W2,GRU-LSTM,LSTM-based,AUX,4.1659
+W2,GRU-LSTM,LSTM-based,LLM,-1.209
+W2,GRU-LSTM,LSTM-based,LDA,-2.1774
+W2,LSTM,LSTM-based,AUX,3.4613
+W2,LSTM,LSTM-based,LLM,-0.6871
+W2,LSTM,LSTM-based,LDA,-1.5667
+W2,LightGBM,Machine learning,AUX,4.224
+W2,LightGBM,Machine learning,LLM,-0.5875
+W2,LightGBM,Machine learning,LDA,-1.9172
+W2,Logit,Benchmark,AUX,4.1882
+W2,Logit,Benchmark,LLM,-0.9014
+W2,Logit,Benchmark,LDA,-2.9408
+W2,RandomForest,Machine learning,AUX,5.2763
+W2,RandomForest,Machine learning,LLM,-1.3538
+W2,RandomForest,Machine learning,LDA,-0.8398
+W2,XGBoost,Machine learning,AUX,4.5889
+W2,XGBoost,Machine learning,LLM,-0.4756
+W2,XGBoost,Machine learning,LDA,-1.1824
+W2,iTransformer,Transformer,AUX,-0.0792
+W2,iTransformer,Transformer,LLM,-0.0663
+W2,iTransformer,Transformer,LDA,0.2455
+W3,BiGRU-LSTM,LSTM-based,AUX,2.0778
+W3,BiGRU-LSTM,LSTM-based,LLM,-0.9762
+W3,BiGRU-LSTM,LSTM-based,LDA,0.5487
+W3,BiLSTM,LSTM-based,AUX,4.6779
+W3,BiLSTM,LSTM-based,LLM,-0.3673
+W3,BiLSTM,LSTM-based,LDA,1.1488
+W3,CNN-LSTM,LSTM-based,AUX,4.3571
+W3,CNN-LSTM,LSTM-based,LLM,-0.0778
+W3,CNN-LSTM,LSTM-based,LDA,0.8593
+W3,DA-RNN,LSTM-based,AUX,-5.4762
+W3,DA-RNN,LSTM-based,LLM,0.9577
+W3,DA-RNN,LSTM-based,LDA,0.8836
+W3,GRU-LSTM,LSTM-based,AUX,4.3269
+W3,GRU-LSTM,LSTM-based,LLM,-0.0707
+W3,GRU-LSTM,LSTM-based,LDA,0.4587
+W3,LSTM,LSTM-based,AUX,3.8719
+W3,LSTM,LSTM-based,LLM,-0.559
+W3,LSTM,LSTM-based,LDA,0.5963
+W3,LightGBM,Machine learning,AUX,0.1786
+W3,LightGBM,Machine learning,LLM,-0.5279
+W3,LightGBM,Machine learning,LDA,-0.7528
+W3,Logit,Benchmark,AUX,2.3055
+W3,Logit,Benchmark,LLM,-0.3211
+W3,Logit,Benchmark,LDA,-1.0278
+W3,RandomForest,Machine learning,AUX,4.8722
+W3,RandomForest,Machine learning,LLM,-0.1505
+W3,RandomForest,Machine learning,LDA,-0.1356
+W3,XGBoost,Machine learning,AUX,3.0221
+W3,XGBoost,Machine learning,LLM,-0.4941
+W3,XGBoost,Machine learning,LDA,0.5409
+W3,iTransformer,Transformer,AUX,0.0252
+W3,iTransformer,Transformer,LLM,-0.6932
+W3,iTransformer,Transformer,LDA,0.6395
+W4,BiGRU-LSTM,LSTM-based,AUX,3.7863
+W4,BiGRU-LSTM,LSTM-based,LLM,-0.6507
+W4,BiGRU-LSTM,LSTM-based,LDA,-1.3084
+W4,BiLSTM,LSTM-based,AUX,5.4876
+W4,BiLSTM,LSTM-based,LLM,-0.2476
+W4,BiLSTM,LSTM-based,LDA,-0.1867
+W4,CNN-LSTM,LSTM-based,AUX,5.4694
+W4,CNN-LSTM,LSTM-based,LLM,-0.2783
+W4,CNN-LSTM,LSTM-based,LDA,-0.4026
+W4,DA-RNN,LSTM-based,AUX,-1.0219
+W4,DA-RNN,LSTM-based,LLM,-1.8821
+W4,DA-RNN,LSTM-based,LDA,-0.4536
+W4,GRU-LSTM,LSTM-based,AUX,4.7671
+W4,GRU-LSTM,LSTM-based,LLM,0.1188
+W4,GRU-LSTM,LSTM-based,LDA,0.0915
+W4,LSTM,LSTM-based,AUX,5.2943
+W4,LSTM,LSTM-based,LLM,-0.573
+W4,LSTM,LSTM-based,LDA,-0.3554
+W4,LightGBM,Machine learning,AUX,8.1854
+W4,LightGBM,Machine learning,LLM,0.1464
+W4,LightGBM,Machine learning,LDA,-1.2533
+W4,Logit,Benchmark,AUX,5.9927
+W4,Logit,Benchmark,LLM,-0.5928
+W4,Logit,Benchmark,LDA,-0.7317
+W4,RandomForest,Machine learning,AUX,6.7637
+W4,RandomForest,Machine learning,LLM,0.5796
+W4,RandomForest,Machine learning,LDA,-4.1789
+W4,XGBoost,Machine learning,AUX,6.6934
+W4,XGBoost,Machine learning,LLM,0.6053
+W4,XGBoost,Machine learning,LDA,-3.1566
+W4,iTransformer,Transformer,AUX,1.466
+W4,iTransformer,Transformer,LLM,-0.0362
+W4,iTransformer,Transformer,LDA,-0.4086

@@ -1,0 +1,30 @@
+a,b,kind,mean_auc_x100,se_x100,n_models,n_models_positive
+Flow history,,main,7.837510646535033,0.5181688022537413,10,10
+Global equity markets,Flow history,interaction,-5.809227205175273,0.6798188979837865,10,0
+Global equity markets,,main,6.651516241429692,0.9106208428316585,10,10
+Rates & FX,Flow history,interaction,-2.6370014861438897,0.3371082129406421,10,0
+Rates & FX,Global equity markets,interaction,-1.9870102281667932,0.34388455850147853,10,0
+Rates & FX,,main,2.3702783709864708,0.2926449439225886,10,10
+Macro fundamentals,Flow history,interaction,-2.042246699886349,0.27326259940284137,10,0
+Macro fundamentals,Global equity markets,interaction,-1.046587114258235,0.2275503422001811,10,0
+Macro fundamentals,Rates & FX,interaction,-1.961344523122646,0.2453544679220244,10,0
+Macro fundamentals,,main,1.7322260936895044,0.26625277490179483,10,10
+Risk & uncertainty,Flow history,interaction,-3.340569105691052,0.8102763404371728,10,1
+Risk & uncertainty,Global equity markets,interaction,-2.030100533263392,0.3965592680681375,10,1
+Risk & uncertainty,Rates & FX,interaction,-2.4089500830492128,0.37054044862005964,10,1
+Risk & uncertainty,Macro fundamentals,interaction,-0.8855520587463906,0.1583076361324881,10,0
+Risk & uncertainty,,main,2.565253456221194,0.6765217789116994,10,9
+Domestic news,Flow history,interaction,-0.7473083311478254,0.5282688289361346,10,3
+Domestic news,Global equity markets,interaction,-0.14925343124398904,0.23633586172328241,10,4
+Domestic news,Rates & FX,interaction,-1.755233849112681,0.26215546200004947,10,0
+Domestic news,Macro fundamentals,interaction,-0.6777227030334791,0.20488020703653304,10,2
+Domestic news,Risk & uncertainty,interaction,-1.3012002797447288,0.3493214671866711,10,2
+Domestic news,,main,-0.32981953967005084,0.6992157297270495,10,5
+Foreign news,Flow history,interaction,3.7951306932424127,0.7848732780389525,10,9
+Foreign news,Global equity markets,interaction,2.5573476702508913,0.5391908641247233,10,9
+Foreign news,Rates & FX,interaction,-1.3056919311128559,0.22488878440152169,10,1
+Foreign news,Macro fundamentals,interaction,0.620953754698835,0.28448624136550743,10,7
+Foreign news,Risk & uncertainty,interaction,0.04216539907334581,0.35267578668408267,10,6
+Foreign news,Domestic news,interaction,0.43774718069761176,0.20632366162580432,10,8
+Foreign news,,main,-2.984426585740508,0.6682723090548325,10,1
+TOTAL (AUC-0.5),,total,17.842538683451348,0.9779942159641088,10,10

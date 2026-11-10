@@ -1,0 +1,233 @@
+# kiwipiepy user dictionary -- Korean semiconductor market & global value chain
+# Format: form <TAB> POS-tag <TAB> score   (higher score = stronger preference)
+# Loaded automatically by src/preprocess_ko.py when this file exists.
+# Tags: NNP = proper noun, NNG = common noun.
+#
+# Purpose: stop kiwipiepy from shredding domain compounds
+#   e.g. SK하이닉스 -> SK + 하이닉스 ,  수출규제 -> 수출 + 규제
+# Curated for recall on: chip firms, process/technology terms, memory products,
+# 소부장 (materials/parts/equipment), and trade/industrial-policy vocabulary.
+
+# ======================================================================
+# 1. Companies -- chipmakers & IDMs
+# ======================================================================
+삼성전자	NNP	5.0
+삼성파운드리	NNP	5.0
+삼성디스플레이	NNP	5.0
+SK하이닉스	NNP	5.0
+하이닉스	NNP	3.0
+SK실트론	NNP	5.0
+SK머티리얼즈	NNP	5.0
+DB하이텍	NNP	5.0
+LX세미콘	NNP	5.0
+LG이노텍	NNP	5.0
+매그나칩	NNP	5.0
+마이크론	NNP	5.0
+인텔	NNP	3.0
+엔비디아	NNP	5.0
+AMD	NNP	3.0
+퀄컴	NNP	3.0
+브로드컴	NNP	5.0
+미디어텍	NNP	5.0
+TSMC	NNP	5.0
+글로벌파운드리	NNP	5.0
+UMC	NNP	3.0
+키옥시아	NNP	5.0
+웨스턴디지털	NNP	5.0
+인피니언	NNP	5.0
+ST마이크로	NNP	5.0
+텍사스인스트루먼트	NNP	5.0
+르네사스	NNP	5.0
+온세미	NNP	5.0
+넥스페리아	NNP	5.0
+인텔파운드리	NNP	5.0
+라피더스	NNP	5.0
+
+# ======================================================================
+# 2. Companies -- equipment & materials (소부장)
+# ======================================================================
+ASML	NNP	5.0
+어플라이드머티리얼즈	NNP	5.0
+램리서치	NNP	5.0
+도쿄일렉트론	NNP	5.0
+KLA	NNP	3.0
+니콘	NNP	3.0
+캐논	NNP	3.0
+한미반도체	NNP	5.0
+원익IPS	NNP	5.0
+주성엔지니어링	NNP	5.0
+피에스케이	NNP	5.0
+유진테크	NNP	5.0
+테스	NNP	3.0
+에스앤에스텍	NNP	5.0
+이오테크닉스	NNP	5.0
+리노공업	NNP	5.0
+티씨케이	NNP	5.0
+하나마이크론	NNP	5.0
+SFA반도체	NNP	5.0
+네패스	NNP	5.0
+엘비세미콘	NNP	5.0
+동진쎄미켐	NNP	5.0
+솔브레인	NNP	5.0
+후성	NNP	3.0
+디엔에프	NNP	5.0
+원익머트리얼즈	NNP	5.0
+
+# ======================================================================
+# 3. Process & technology
+# ======================================================================
+반도체	NNG	3.0
+메모리반도체	NNG	5.0
+시스템반도체	NNG	5.0
+비메모리반도체	NNG	5.0
+비메모리	NNG	3.0
+파운드리	NNG	5.0
+팹리스	NNG	5.0
+종합반도체	NNG	5.0
+전공정	NNG	5.0
+후공정	NNG	5.0
+패키징	NNG	3.0
+첨단패키징	NNG	5.0
+어드밴스드패키징	NNG	5.0
+이종집적	NNG	5.0
+칩렛	NNG	5.0
+하이브리드본딩	NNG	5.0
+노광	NNG	3.0
+노광장비	NNG	5.0
+극자외선	NNG	5.0
+심자외선	NNG	5.0
+포토레지스트	NNG	5.0
+포토마스크	NNG	5.0
+블랭크마스크	NNG	5.0
+식각	NNG	3.0
+증착	NNG	3.0
+이온주입	NNG	5.0
+세정	NNG	3.0
+계측	NNG	3.0
+미세공정	NNG	5.0
+초미세공정	NNG	5.0
+나노공정	NNG	5.0
+게이트올어라운드	NNG	5.0
+핀펫	NNG	5.0
+트랜지스터	NNG	3.0
+수율	NNG	3.0
+웨이퍼	NNG	3.0
+실리콘웨이퍼	NNG	5.0
+가동률	NNG	3.0
+증설	NNG	3.0
+화합물반도체	NNG	5.0
+전력반도체	NNG	5.0
+이미지센서	NNG	5.0
+파워반도체	NNG	5.0
+차량용반도체	NNG	5.0
+2나노	NNG	5.0
+3나노	NNG	5.0
+4나노	NNG	5.0
+5나노	NNG	5.0
+7나노	NNG	5.0
+
+# ======================================================================
+# 4. Memory products
+# ======================================================================
+D램	NNG	5.0
+디램	NNG	5.0
+낸드플래시	NNG	5.0
+낸드	NNG	3.0
+3D낸드	NNG	5.0
+노어플래시	NNG	5.0
+HBM	NNP	5.0
+HBM3	NNP	5.0
+HBM3E	NNP	5.0
+HBM4	NNP	5.0
+고대역폭메모리	NNG	5.0
+DDR4	NNP	5.0
+DDR5	NNP	5.0
+LPDDR	NNP	5.0
+LPDDR5	NNP	5.0
+GDDR	NNP	5.0
+GDDR7	NNP	5.0
+DRAM	NNP	3.0
+NAND	NNP	3.0
+SRAM	NNP	3.0
+eSSD	NNP	5.0
+온디바이스AI	NNG	5.0
+AI반도체	NNG	5.0
+AI가속기	NNG	5.0
+신경망처리장치	NNG	5.0
+# defensive: without the bare noun registered, kiwi glues the following josa
+# onto a preceding user word (e.g. "수요로" analysed as one noun).
+수요	NNG	3.0
+공급	NNG	3.0
+
+# ======================================================================
+# 5. Materials / parts / equipment category
+# ======================================================================
+소부장	NNG	5.0
+소재부품장비	NNG	5.0
+반도체소재	NNG	5.0
+반도체부품	NNG	5.0
+반도체장비	NNG	5.0
+반도체공정	NNG	5.0
+특수가스	NNG	5.0
+산업용가스	NNG	5.0
+전구체	NNG	3.0
+슬러리	NNG	3.0
+식각가스	NNG	5.0
+
+# ======================================================================
+# 6. Trade & industrial policy / global value chain
+# ======================================================================
+수출규제	NNG	5.0
+수출통제	NNG	5.0
+수출제한	NNG	5.0
+반도체수출	NNG	5.0
+대중수출규제	NNG	5.0
+대중제재	NNG	5.0
+반도체지원법	NNP	5.0
+반도체특별법	NNP	5.0
+칩스법	NNP	5.0
+반도체법	NNP	5.0
+과학법	NNP	3.0
+칩4	NNP	5.0
+칩4동맹	NNP	5.0
+반도체동맹	NNG	5.0
+반도체클러스터	NNG	5.0
+용인클러스터	NNP	5.0
+반도체메가클러스터	NNP	5.0
+평택캠퍼스	NNP	5.0
+화성캠퍼스	NNP	5.0
+기흥캠퍼스	NNP	5.0
+반도체특화단지	NNG	5.0
+국가첨단전략산업	NNG	5.0
+투자세액공제	NNG	5.0
+세액공제	NNG	3.0
+가드레일	NNG	3.0
+엔티티리스트	NNG	5.0
+우려거래국	NNG	5.0
+화웨이제재	NNP	5.0
+공급망	NNG	3.0
+글로벌공급망	NNG	5.0
+반도체공급망	NNG	5.0
+공급망재편	NNG	5.0
+프렌드쇼어링	NNG	5.0
+리쇼어링	NNG	3.0
+니어쇼어링	NNG	3.0
+밸류체인	NNG	3.0
+글로벌가치사슬	NNG	5.0
+가치사슬	NNG	3.0
+반도체굴기	NNG	5.0
+기술패권	NNG	5.0
+반도체전쟁	NNG	5.0
+반도체패권	NNG	5.0
+
+# ======================================================================
+# 7. Institutions / people frequently in chip-policy news
+# ======================================================================
+미국상무부	NNP	5.0
+상무부	NNP	3.0
+산업통상자원부	NNP	5.0
+반도체협회	NNP	3.0
+젠슨황	NNP	5.0
+이재용	NNP	5.0
+곽노정	NNP	5.0
+경계현	NNP	5.0

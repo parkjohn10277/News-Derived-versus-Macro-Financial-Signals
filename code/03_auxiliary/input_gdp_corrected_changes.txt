@@ -1,0 +1,10 @@
+input_gdp_corrected.csv = input_aligned.csv with publication-lagged macro variables
+(values unchanged, only the date each becomes available).  All other columns identical.
+
+cpi_yoy         lag + 5 d   days changed   426/2781   missing 0
+unemp_rate      lag +16 d   days changed  1234/2781   missing 0
+semi_prod_yoy   lag +31 d   days changed  2781/2781   missing 0
+gdp_yoy         lag +70 d   days changed  2116/2781   missing 0
+global_epu      lag + 7 d   days changed   595/2781   missing 0
+gpr_global      lag + 7 d   days changed   595/2781   missing 0
+gpr_korea       lag + 7 d   days changed   595/2781   missing 0

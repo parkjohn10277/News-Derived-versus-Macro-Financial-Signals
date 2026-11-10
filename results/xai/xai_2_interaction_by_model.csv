@@ -1,0 +1,291 @@
+model,a,b,value_x100
+lstm,ALL,,19.40886441122475
+lstm,Flow history,,7.3909844766650385
+lstm,Global equity markets,Flow history,-5.927519888102097
+lstm,Global equity markets,,7.205443782548418
+lstm,Rates & FX,Flow history,-2.5442171518489323
+lstm,Rates & FX,Global equity markets,-2.165058134452308
+lstm,Rates & FX,,2.391404093764436
+lstm,Macro fundamentals,Flow history,-1.8604161202902283
+lstm,Macro fundamentals,Global equity markets,-0.743474079902086
+lstm,Macro fundamentals,Rates & FX,-3.149270041087504
+lstm,Macro fundamentals,,1.5006007018595497
+lstm,Risk & uncertainty,Flow history,-4.61974822974036
+lstm,Risk & uncertainty,Global equity markets,-2.3110062068362582
+lstm,Risk & uncertainty,Rates & FX,-3.7882244951481723
+lstm,Risk & uncertainty,Macro fundamentals,-0.9960223795786319
+lstm,Risk & uncertainty,,3.9019994255242065
+lstm,Domestic news,Flow history,-2.62184631523734
+lstm,Domestic news,Global equity markets,-0.8441821837573141
+lstm,Domestic news,Rates & FX,-2.232494099134536
+lstm,Domestic news,Macro fundamentals,-1.51866421890025
+lstm,Domestic news,Risk & uncertainty,-2.213917300463322
+lstm,Domestic news,,1.8819539670051038
+lstm,Foreign news,Flow history,6.365250458956198
+lstm,Foreign news,Global equity markets,4.1270915289798
+lstm,Foreign news,Rates & FX,-2.0509747355538
+lstm,Foreign news,Macro fundamentals,0.843246787306578
+lstm,Foreign news,Risk & uncertainty,-0.029119678293555995
+lstm,Foreign news,Domestic news,0.03430369787568598
+lstm,Foreign news,,-4.8635220361420135
+cnn_lstm,ALL,,20.07605559926567
+cnn_lstm,Flow history,,7.158060769547782
+cnn_lstm,Global equity markets,Flow history,-5.6607570591834895
+cnn_lstm,Global equity markets,,7.438050279120296
+cnn_lstm,Rates & FX,Flow history,-2.72808811959087
+cnn_lstm,Rates & FX,Global equity markets,-1.7578372235335198
+cnn_lstm,Rates & FX,,2.4461803604211103
+cnn_lstm,Macro fundamentals,Flow history,-2.4870355800332162
+cnn_lstm,Macro fundamentals,Global equity markets,-1.2043010752688101
+cnn_lstm,Macro fundamentals,Rates & FX,-1.573057085409561
+cnn_lstm,Macro fundamentals,,1.862895108213752
+cnn_lstm,Risk & uncertainty,Flow history,-7.155642975784591
+cnn_lstm,Risk & uncertainty,Global equity markets,-3.7220648658099447
+cnn_lstm,Risk & uncertainty,Rates & FX,-2.86606346708628
+cnn_lstm,Risk & uncertainty,Macro fundamentals,-1.457994579945794
+cnn_lstm,Risk & uncertainty,,6.083928415321016
+cnn_lstm,Domestic news,Flow history,-0.275688434303698
+cnn_lstm,Domestic news,Global equity markets,-0.26740973861351197
+cnn_lstm,Domestic news,Rates & FX,-1.056919311128592
+cnn_lstm,Domestic news,Macro fundamentals,-1.2108750764926939
+cnn_lstm,Domestic news,Risk & uncertainty,-1.252111198531336
+cnn_lstm,Domestic news,,-0.004033819140031938
+cnn_lstm,Foreign news,Flow history,6.110516653553626
+cnn_lstm,Foreign news,Global equity markets,3.4442608619634516
+cnn_lstm,Foreign news,Rates & FX,-0.8625142057872199
+cnn_lstm,Foreign news,Macro fundamentals,0.224372759856628
+cnn_lstm,Foreign news,Risk & uncertainty,1.7730483433866537
+cnn_lstm,Foreign news,Domestic news,0.882830667016342
+cnn_lstm,Foreign news,,-4.90902551421827
+gru_lstm,ALL,,19.42774718069761
+gru_lstm,Flow history,,7.20425112085222
+gru_lstm,Global equity markets,Flow history,-6.085654340414369
+gru_lstm,Global equity markets,,7.419042623605958
+gru_lstm,Rates & FX,Flow history,-2.403269516566132
+gru_lstm,Rates & FX,Global equity markets,-1.8389544540606662
+gru_lstm,Rates & FX,,2.29174128607645
+gru_lstm,Macro fundamentals,Flow history,-2.122021155695422
+gru_lstm,Macro fundamentals,Global equity markets,-1.038867033831626
+gru_lstm,Macro fundamentals,Rates & FX,-2.287070548124832
+gru_lstm,Macro fundamentals,,1.832313014374378
+gru_lstm,Risk & uncertainty,Flow history,-4.516198968441292
+gru_lstm,Risk & uncertainty,Global equity markets,-3.5558702683800956
+gru_lstm,Risk & uncertainty,Rates & FX,-3.008549698400202
+gru_lstm,Risk & uncertainty,Macro fundamentals,-0.97802255441909
+gru_lstm,Risk & uncertainty,,3.5829555530578325
+gru_lstm,Domestic news,Flow history,-1.765049392429402
+gru_lstm,Domestic news,Global equity markets,-0.7438762129556781
+gru_lstm,Domestic news,Rates & FX,-1.7201153947023322
+gru_lstm,Domestic news,Macro fundamentals,-1.6153684762654017
+gru_lstm,Domestic news,Risk & uncertainty,-2.004301075268812
+gru_lstm,Domestic news,,1.40220548749266
+gru_lstm,Foreign news,Flow history,5.566203339452745
+gru_lstm,Foreign news,Global equity markets,3.571640877699092
+gru_lstm,Foreign news,Rates & FX,-1.065145554681348
+gru_lstm,Foreign news,Macro fundamentals,0.36497945624617
+gru_lstm,Foreign news,Risk & uncertainty,1.0333071072646158
+gru_lstm,Foreign news,Domestic news,0.2961272838534841
+gru_lstm,Foreign news,,-4.304761904761902
+bigru_lstm,ALL,,16.81248360870705
+bigru_lstm,Flow history,,7.5442571153822096
+bigru_lstm,Global equity markets,Flow history,-6.0210333071072615
+bigru_lstm,Global equity markets,,5.703659161015569
+bigru_lstm,Rates & FX,Flow history,-1.570618061019316
+bigru_lstm,Rates & FX,Global equity markets,-1.4105691056910519
+bigru_lstm,Rates & FX,,1.499856381052286
+bigru_lstm,Macro fundamentals,Flow history,-0.965914852696908
+bigru_lstm,Macro fundamentals,Global equity markets,-0.09688783984614001
+bigru_lstm,Macro fundamentals,Rates & FX,-1.740012238832064
+bigru_lstm,Macro fundamentals,,0.7198756135026759
+bigru_lstm,Risk & uncertainty,Flow history,-4.807710464201412
+bigru_lstm,Risk & uncertainty,Global equity markets,-2.019022641839314
+bigru_lstm,Risk & uncertainty,Rates & FX,-2.43572864760905
+bigru_lstm,Risk & uncertainty,Macro fundamentals,-0.16051228254217995
+bigru_lstm,Risk & uncertainty,,3.484164449939426
+bigru_lstm,Domestic news,Flow history,1.710271876912316
+bigru_lstm,Domestic news,Global equity markets,0.8757408864411179
+bigru_lstm,Domestic news,Rates & FX,-0.8113995978669439
+bigru_lstm,Domestic news,Macro fundamentals,-0.5022641839321601
+bigru_lstm,Domestic news,Risk & uncertainty,0.11485269691406409
+bigru_lstm,Domestic news,,-1.82597629662932
+bigru_lstm,Foreign news,Flow history,0.693032607745434
+bigru_lstm,Foreign news,Global equity markets,1.00694116618585
+bigru_lstm,Foreign news,Rates & FX,-2.296031121601534
+bigru_lstm,Foreign news,Macro fundamentals,-0.309388932599004
+bigru_lstm,Foreign news,Risk & uncertainty,-1.8699536672786037
+bigru_lstm,Foreign news,Domestic news,-0.588355625491736
+bigru_lstm,Foreign news,,-0.313352815555808
+bilstm,ALL,,20.045633359559396
+bilstm,Flow history,,7.481036054600172
+bilstm,Global equity markets,Flow history,-6.64337791765014
+bilstm,Global equity markets,,8.182670812883238
+bilstm,Rates & FX,Flow history,-2.7008829443133107
+bilstm,Rates & FX,Global equity markets,-2.023428621382982
+bilstm,Rates & FX,,2.388615388458028
+bilstm,Macro fundamentals,Flow history,-1.856088818952702
+bilstm,Macro fundamentals,Global equity markets,-1.1726899204475842
+bilstm,Macro fundamentals,Rates & FX,-1.8941515866771519
+bilstm,Macro fundamentals,,1.537212293781918
+bilstm,Risk & uncertainty,Flow history,-4.8612990646035446
+bilstm,Risk & uncertainty,Global equity markets,-2.811434565958556
+bilstm,Risk & uncertainty,Rates & FX,-3.1506075705918306
+bilstm,Risk & uncertainty,Macro fundamentals,-0.93165486493574
+bilstm,Risk & uncertainty,,3.987199180747562
+bilstm,Domestic news,Flow history,-2.02356849374945
+bilstm,Domestic news,Global equity markets,-0.372427659760464
+bilstm,Domestic news,Rates & FX,-2.37905411312177
+bilstm,Domestic news,Macro fundamentals,-1.069971151324412
+bilstm,Domestic news,Risk & uncertainty,-2.6252294781012244
+bilstm,Domestic news,,1.464024078028796
+bilstm,Foreign news,Flow history,6.794894658624003
+bilstm,Foreign news,Global equity markets,4.352495847539114
+bilstm,Foreign news,Rates & FX,-2.02024652504589
+bilstm,Foreign news,Macro fundamentals,0.45091354139347795
+bilstm,Foreign news,Risk & uncertainty,0.42953055337005
+bilstm,Foreign news,Domestic news,0.684780138123958
+bilstm,Foreign news,,-4.995124448940338
+darnn,ALL,,9.927616050354047
+darnn,Flow history,,10.867863074944113
+darnn,Global equity markets,Flow history,-0.2898942215228641
+darnn,Global equity markets,,0.308574675608508
+darnn,Rates & FX,Flow history,-2.7578809336480443
+darnn,Rates & FX,Global equity markets,-0.52072733630562
+darnn,Rates & FX,,2.740299476727482
+darnn,Macro fundamentals,Flow history,-1.734120115394696
+darnn,Macro fundamentals,Global equity markets,-0.01580557741061403
+darnn,Macro fundamentals,Rates & FX,-1.8122300900428303
+darnn,Macro fundamentals,,1.064296329599236
+darnn,Risk & uncertainty,Flow history,1.728901127720954
+darnn,Risk & uncertainty,Global equity markets,0.07528630125011
+darnn,Risk & uncertainty,Rates & FX,-1.100891686336214
+darnn,Risk & uncertainty,Macro fundamentals,-1.1324241629512999
+darnn,Risk & uncertainty,,-1.1885142307644319
+darnn,Domestic news,Flow history,1.907413235422676
+darnn,Domestic news,Global equity markets,0.29108313663781604
+darnn,Domestic news,Rates & FX,-2.214887665005676
+darnn,Domestic news,Macro fundamentals,-0.6016959524433899
+darnn,Domestic news,Risk & uncertainty,0.8757496284640262
+darnn,Domestic news,,-4.779020393890569
+darnn,Foreign news,Flow history,-0.450013113034354
+darnn,Foreign news,Global equity markets,0.15006556517177602
+darnn,Foreign news,Rates & FX,-1.311714310691492
+darnn,Foreign news,Macro fundamentals,-0.18182533438237403
+darnn,Foreign news,Risk & uncertainty,-1.6346621208147518
+darnn,Foreign news,Domestic news,0.4803391904886779
+darnn,Foreign news,,0.9141171181297059
+itransformer,ALL,,16.47469184369263
+itransformer,Flow history,,10.799746481335774
+itransformer,Global equity markets,Flow history,-4.964664743421622
+itransformer,Global equity markets,,3.164988198269072
+itransformer,Rates & FX,Flow history,-0.384920010490426
+itransformer,Rates & FX,Global equity markets,-0.28568056648308204
+itransformer,Rates & FX,,0.24819477227030198
+itransformer,Macro fundamentals,Flow history,-0.542320132878748
+itransformer,Macro fundamentals,Global equity markets,-0.517693854357894
+itransformer,Macro fundamentals,Rates & FX,-0.22997639653815602
+itransformer,Macro fundamentals,,0.4967741935483839
+itransformer,Risk & uncertainty,Flow history,-1.48579421278083
+itransformer,Risk & uncertainty,Global equity markets,-1.057461316548642
+itransformer,Risk & uncertainty,Rates & FX,0.20027100271002599
+itransformer,Risk & uncertainty,Macro fundamentals,-0.37613427747180395
+itransformer,Risk & uncertainty,,1.0259987761167881
+itransformer,Domestic news,Flow history,-2.6549785820438823
+itransformer,Domestic news,Global equity markets,-0.887018095987408
+itransformer,Domestic news,Rates & FX,-0.181082262435528
+itransformer,Domestic news,Macro fundamentals,-0.376291633884078
+itransformer,Domestic news,Risk & uncertainty,-0.670364542355098
+itransformer,Domestic news,,1.7833551883905878
+itransformer,Foreign news,Flow history,2.086178861788612
+itransformer,Foreign news,Global equity markets,-0.469490340064688
+itransformer,Foreign news,Rates & FX,0.087787394002972
+itransformer,Foreign news,Macro fundamentals,-0.200961622519448
+itransformer,Foreign news,Risk & uncertainty,-0.297377393128766
+itransformer,Foreign news,Domestic news,-0.556254917387884
+itransformer,Foreign news,,-1.0443657662383001
+random_forest,ALL,,18.401783372672433
+random_forest,Flow history,,5.997281230876822
+random_forest,Global equity markets,Flow history,-7.431689833027357
+random_forest,Global equity markets,,8.491939854882418
+random_forest,Rates & FX,Flow history,-3.9861701197657062
+random_forest,Rates & FX,Global equity markets,-3.4673835125448
+random_forest,Rates & FX,,3.3169682664568523
+random_forest,Macro fundamentals,Flow history,-2.625474254742542
+random_forest,Macro fundamentals,Global equity markets,-2.144103505551176
+random_forest,Macro fundamentals,Rates & FX,-2.758248098610012
+random_forest,Macro fundamentals,,2.6441646997115082
+random_forest,Risk & uncertainty,Flow history,-4.493775679692276
+random_forest,Risk & uncertainty,Global equity markets,-2.766229565521458
+random_forest,Risk & uncertainty,Rates & FX,-3.2888014686598437
+random_forest,Risk & uncertainty,Macro fundamentals,-1.734994317685108
+random_forest,Risk & uncertainty,,3.075216365066872
+random_forest,Domestic news,Flow history,0.463720604947984
+random_forest,Domestic news,Global equity markets,1.181737914153328
+random_forest,Domestic news,Rates & FX,-1.741306058221866
+random_forest,Domestic news,Macro fundamentals,0.248028673835124
+random_forest,Domestic news,Risk & uncertainty,-1.556543404143712
+random_forest,Domestic news,,-2.22301774630649
+random_forest,Foreign news,Flow history,3.1691144330798102
+random_forest,Foreign news,Global equity markets,2.852688172043006
+random_forest,Foreign news,Rates & FX,-0.8236559139784941
+random_forest,Foreign news,Macro fundamentals,1.2712824547600259
+random_forest,Foreign news,Risk & uncertainty,0.6884954978582041
+random_forest,Foreign news,Domestic news,1.370268380103152
+random_forest,Foreign news,,-2.900769298015554
+xgboost,ALL,,17.692630474691843
+xgboost,Flow history,,7.079258926229811
+xgboost,Global equity markets,Flow history,-8.235064253868343
+xgboost,Global equity markets,,9.479582381077265
+xgboost,Rates & FX,Flow history,-3.8315324766150836
+xgboost,Rates & FX,Global equity markets,-3.308663344697956
+xgboost,Rates & FX,,3.3598603774056115
+xgboost,Macro fundamentals,Flow history,-2.723629687909778
+xgboost,Macro fundamentals,Global equity markets,-1.9135413934784458
+xgboost,Macro fundamentals,Rates & FX,-2.010577847713954
+xgboost,Macro fundamentals,,2.751039676295374
+xgboost,Risk & uncertainty,Flow history,-1.095821313051838
+xgboost,Risk & uncertainty,Global equity markets,-0.568668589911702
+xgboost,Risk & uncertainty,Rates & FX,-2.206617711338396
+xgboost,Risk & uncertainty,Macro fundamentals,-0.316085322143544
+xgboost,Risk & uncertainty,,0.342052876749966
+xgboost,Domestic news,Flow history,-0.7434828219249919
+xgboost,Domestic news,Global equity markets,0.124171693329834
+xgboost,Domestic news,Rates & FX,-2.455249584753908
+xgboost,Domestic news,Macro fundamentals,-0.16048605647347
+xgboost,Domestic news,Risk & uncertainty,-2.075863274761774
+xgboost,Domestic news,,-1.648767999200726
+xgboost,Foreign news,Flow history,3.3701547338053985
+xgboost,Foreign news,Global equity markets,2.9502841157443798
+xgboost,Foreign news,Rates & FX,-1.5458693941778079
+xgboost,Foreign news,Macro fundamentals,1.087079290147736
+xgboost,Foreign news,Risk & uncertainty,0.04170819127546001
+xgboost,Foreign news,Domestic news,0.6945974298452641
+xgboost,Foreign news,,-3.67039576386547
+lightgbm,ALL,,20.157880933648045
+lightgbm,Flow history,,6.852367214916384
+lightgbm,Global equity markets,Flow history,-6.832616487455194
+lightgbm,Global equity markets,,9.121210645286173
+lightgbm,Rates & FX,Flow history,-3.462435527581076
+lightgbm,Rates & FX,Global equity markets,-3.0917999825159503
+lightgbm,Rates & FX,,3.0196633072321477
+lightgbm,Macro fundamentals,Flow history,-3.505446280269248
+lightgbm,Macro fundamentals,Global equity markets,-1.6185068624879764
+lightgbm,Macro fundamentals,Rates & FX,-2.158851298190396
+lightgbm,Macro fundamentals,,2.9130893060082643
+lightgbm,Risk & uncertainty,Flow history,-2.098601276335338
+lightgbm,Risk & uncertainty,Global equity markets,-1.5645336130780598
+lightgbm,Risk & uncertainty,Rates & FX,-2.444287088032164
+lightgbm,Risk & uncertainty,Macro fundamentals,-0.7716758457907121
+lightgbm,Risk & uncertainty,,1.3575337504527099
+lightgbm,Domestic news,Flow history,-1.469874989072466
+lightgbm,Domestic news,Global equity markets,-0.85035405192761
+lightgbm,Domestic news,Rates & FX,-2.759830404755658
+lightgbm,Domestic news,Macro fundamentals,0.03036104554594001
+lightgbm,Domestic news,Risk & uncertainty,-1.6042748492000998
+lightgbm,Domestic news,,0.65108213754948
+lightgbm,Foreign news,Flow history,4.245974298452656
+lightgbm,Foreign news,Global equity markets,3.5874989072471317
+lightgbm,Foreign news,Rates & FX,-1.168554943613946
+lightgbm,Foreign news,Macro fundamentals,2.65983914677856
+lightgbm,Foreign news,Risk & uncertainty,0.286677157094152
+lightgbm,Foreign news,Domestic news,1.078835562549174
+lightgbm,Foreign news,,-3.75706542779713

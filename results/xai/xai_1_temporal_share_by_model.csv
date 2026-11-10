@@ -1,0 +1,841 @@
+model,year,group,share
+lstm,2015,Flow history,0.17966070387674757
+lstm,2015,Global equity markets,0.28688433577981326
+lstm,2015,Rates & FX,0.031115858580076237
+lstm,2015,Macro fundamentals,0.1660487735936426
+lstm,2015,Risk & uncertainty,0.12509892219467192
+lstm,2015,Domestic news,0.11797959562887053
+lstm,2015,Foreign news,0.09321181034617798
+lstm,2016,Flow history,0.14690589510543448
+lstm,2016,Global equity markets,0.2782762743999206
+lstm,2016,Rates & FX,0.05836019074018664
+lstm,2016,Macro fundamentals,0.15099612856693373
+lstm,2016,Risk & uncertainty,0.12981189711256547
+lstm,2016,Domestic news,0.11778064183068589
+lstm,2016,Foreign news,0.11786897224427313
+lstm,2017,Flow history,0.21446146382349368
+lstm,2017,Global equity markets,0.21115762374036046
+lstm,2017,Rates & FX,0.103288265792857
+lstm,2017,Macro fundamentals,0.08204072813871706
+lstm,2017,Risk & uncertainty,0.14873994523947526
+lstm,2017,Domestic news,0.11678943595225993
+lstm,2017,Foreign news,0.1235225373128366
+lstm,2018,Flow history,0.18221833428718145
+lstm,2018,Global equity markets,0.33785126618070205
+lstm,2018,Rates & FX,0.1003193833542764
+lstm,2018,Macro fundamentals,0.08561231324407444
+lstm,2018,Risk & uncertainty,0.11831641325020342
+lstm,2018,Domestic news,0.08939398660155354
+lstm,2018,Foreign news,0.08628830308200874
+lstm,2019,Flow history,0.23808912420766992
+lstm,2019,Global equity markets,0.30080463880916736
+lstm,2019,Rates & FX,0.07401815967910726
+lstm,2019,Macro fundamentals,0.0745487845526492
+lstm,2019,Risk & uncertainty,0.13820092824224306
+lstm,2019,Domestic news,0.07693499490544897
+lstm,2019,Foreign news,0.09740336960371418
+lstm,2020,Flow history,0.24956355450742357
+lstm,2020,Global equity markets,0.3907992808745932
+lstm,2020,Rates & FX,0.029967131286909303
+lstm,2020,Macro fundamentals,0.07338867843014353
+lstm,2020,Risk & uncertainty,0.10510363757367122
+lstm,2020,Domestic news,0.06017435604750676
+lstm,2020,Foreign news,0.09100336127975242
+lstm,2021,Flow history,0.3414889539898569
+lstm,2021,Global equity markets,0.27446751033663824
+lstm,2021,Rates & FX,0.09410511291125115
+lstm,2021,Macro fundamentals,0.06679514002167394
+lstm,2021,Risk & uncertainty,0.0891214141964089
+lstm,2021,Domestic news,0.054783420222584985
+lstm,2021,Foreign news,0.07923844832158582
+lstm,2022,Flow history,0.2042618604564229
+lstm,2022,Global equity markets,0.37900198558496473
+lstm,2022,Rates & FX,0.04541297384882002
+lstm,2022,Macro fundamentals,0.11842675894173683
+lstm,2022,Risk & uncertainty,0.12411950042244184
+lstm,2022,Domestic news,0.05813039332282049
+lstm,2022,Foreign news,0.07064652742279309
+lstm,2023,Flow history,0.24189307433746032
+lstm,2023,Global equity markets,0.29179054887759054
+lstm,2023,Rates & FX,0.0455842671496042
+lstm,2023,Macro fundamentals,0.19569254081948165
+lstm,2023,Risk & uncertainty,0.06498460569915436
+lstm,2023,Domestic news,0.08035461076277364
+lstm,2023,Foreign news,0.07970035235393522
+lstm,2024,Flow history,0.28371439128746356
+lstm,2024,Global equity markets,0.22961653806955093
+lstm,2024,Rates & FX,0.06725431222566475
+lstm,2024,Macro fundamentals,0.11813921008473809
+lstm,2024,Risk & uncertainty,0.09822145427535948
+lstm,2024,Domestic news,0.05932717484738985
+lstm,2024,Foreign news,0.1437269192098332
+lstm,2025,Flow history,0.2737686359394621
+lstm,2025,Global equity markets,0.274965302545939
+lstm,2025,Rates & FX,0.057358932744251565
+lstm,2025,Macro fundamentals,0.06279113092376802
+lstm,2025,Risk & uncertainty,0.14269402119276153
+lstm,2025,Domestic news,0.06360120495166244
+lstm,2025,Foreign news,0.12482077170215523
+lstm,2026,Flow history,0.3173800772554619
+lstm,2026,Global equity markets,0.1780674423019289
+lstm,2026,Rates & FX,0.0318386220908347
+lstm,2026,Macro fundamentals,0.049565687132320214
+lstm,2026,Risk & uncertainty,0.19442580036617987
+lstm,2026,Domestic news,0.11829280830472641
+lstm,2026,Foreign news,0.11042956254854798
+cnn_lstm,2015,Flow history,0.17938031400388763
+cnn_lstm,2015,Global equity markets,0.2591909611199942
+cnn_lstm,2015,Rates & FX,0.03814961838115472
+cnn_lstm,2015,Macro fundamentals,0.21241260705164047
+cnn_lstm,2015,Risk & uncertainty,0.10763761326790035
+cnn_lstm,2015,Domestic news,0.11171596900475407
+cnn_lstm,2015,Foreign news,0.09151291717066865
+cnn_lstm,2016,Flow history,0.1504865781826662
+cnn_lstm,2016,Global equity markets,0.24275597467941287
+cnn_lstm,2016,Rates & FX,0.06031195734491037
+cnn_lstm,2016,Macro fundamentals,0.18993818635709694
+cnn_lstm,2016,Risk & uncertainty,0.13467937495575932
+cnn_lstm,2016,Domestic news,0.100845796325516
+cnn_lstm,2016,Foreign news,0.12098213215463831
+cnn_lstm,2017,Flow history,0.2042633080955354
+cnn_lstm,2017,Global equity markets,0.20156192130415995
+cnn_lstm,2017,Rates & FX,0.12133259054497515
+cnn_lstm,2017,Macro fundamentals,0.08974522274349016
+cnn_lstm,2017,Risk & uncertainty,0.1411792358465706
+cnn_lstm,2017,Domestic news,0.10663325529441005
+cnn_lstm,2017,Foreign news,0.13528446617085893
+cnn_lstm,2018,Flow history,0.18370625710432548
+cnn_lstm,2018,Global equity markets,0.3008780135875543
+cnn_lstm,2018,Rates & FX,0.12413020168665288
+cnn_lstm,2018,Macro fundamentals,0.0943625524363153
+cnn_lstm,2018,Risk & uncertainty,0.11623028726282311
+cnn_lstm,2018,Domestic news,0.083468463441921
+cnn_lstm,2018,Foreign news,0.097224224480408
+cnn_lstm,2019,Flow history,0.22024086133182957
+cnn_lstm,2019,Global equity markets,0.2917590376866967
+cnn_lstm,2019,Rates & FX,0.08231408150512531
+cnn_lstm,2019,Macro fundamentals,0.06802101483439352
+cnn_lstm,2019,Risk & uncertainty,0.12504726703935776
+cnn_lstm,2019,Domestic news,0.09107840495297731
+cnn_lstm,2019,Foreign news,0.12153933264961986
+cnn_lstm,2020,Flow history,0.2434410804204882
+cnn_lstm,2020,Global equity markets,0.33822693759508454
+cnn_lstm,2020,Rates & FX,0.037913911077065494
+cnn_lstm,2020,Macro fundamentals,0.0867871102406689
+cnn_lstm,2020,Risk & uncertainty,0.12436148270517314
+cnn_lstm,2020,Domestic news,0.07117738690957955
+cnn_lstm,2020,Foreign news,0.09809209105194015
+cnn_lstm,2021,Flow history,0.3207887668752836
+cnn_lstm,2021,Global equity markets,0.24596699279676756
+cnn_lstm,2021,Rates & FX,0.12187303463023652
+cnn_lstm,2021,Macro fundamentals,0.0818475952584837
+cnn_lstm,2021,Risk & uncertainty,0.09718256692595686
+cnn_lstm,2021,Domestic news,0.059896465880063615
+cnn_lstm,2021,Foreign news,0.07244457763320812
+cnn_lstm,2022,Flow history,0.19709664685118788
+cnn_lstm,2022,Global equity markets,0.3273849547342236
+cnn_lstm,2022,Rates & FX,0.0774357809201345
+cnn_lstm,2022,Macro fundamentals,0.14193210699567294
+cnn_lstm,2022,Risk & uncertainty,0.13326866202180923
+cnn_lstm,2022,Domestic news,0.05964310089490021
+cnn_lstm,2022,Foreign news,0.06323874758207175
+cnn_lstm,2023,Flow history,0.23935713536457487
+cnn_lstm,2023,Global equity markets,0.2685310347098777
+cnn_lstm,2023,Rates & FX,0.05185920336387913
+cnn_lstm,2023,Macro fundamentals,0.19043042515958855
+cnn_lstm,2023,Risk & uncertainty,0.06755316658078638
+cnn_lstm,2023,Domestic news,0.0973722269941242
+cnn_lstm,2023,Foreign news,0.0848968078271691
+cnn_lstm,2024,Flow history,0.2679522050029295
+cnn_lstm,2024,Global equity markets,0.22350230854369477
+cnn_lstm,2024,Rates & FX,0.10100706629726056
+cnn_lstm,2024,Macro fundamentals,0.13391906601333828
+cnn_lstm,2024,Risk & uncertainty,0.10079159251240936
+cnn_lstm,2024,Domestic news,0.05818628270340513
+cnn_lstm,2024,Foreign news,0.11464147892696218
+cnn_lstm,2025,Flow history,0.26344930503871894
+cnn_lstm,2025,Global equity markets,0.24426519161705457
+cnn_lstm,2025,Rates & FX,0.08672587227160851
+cnn_lstm,2025,Macro fundamentals,0.057456395968717634
+cnn_lstm,2025,Risk & uncertainty,0.19800183012892067
+cnn_lstm,2025,Domestic news,0.0439469213272946
+cnn_lstm,2025,Foreign news,0.1061544836476851
+cnn_lstm,2026,Flow history,0.28878220994582127
+cnn_lstm,2026,Global equity markets,0.1720407671506189
+cnn_lstm,2026,Rates & FX,0.04325776539369837
+cnn_lstm,2026,Macro fundamentals,0.049288479061602976
+cnn_lstm,2026,Risk & uncertainty,0.27192582427837536
+cnn_lstm,2026,Domestic news,0.07661430720363656
+cnn_lstm,2026,Foreign news,0.09809064696624661
+gru_lstm,2015,Flow history,0.1869341572361064
+gru_lstm,2015,Global equity markets,0.2905272440691763
+gru_lstm,2015,Rates & FX,0.039015570292123304
+gru_lstm,2015,Macro fundamentals,0.16218168427779794
+gru_lstm,2015,Risk & uncertainty,0.1032936659248488
+gru_lstm,2015,Domestic news,0.11720504292139344
+gru_lstm,2015,Foreign news,0.10084263527855358
+gru_lstm,2016,Flow history,0.15395694051642042
+gru_lstm,2016,Global equity markets,0.2845086987545963
+gru_lstm,2016,Rates & FX,0.048490838709208416
+gru_lstm,2016,Macro fundamentals,0.1505788864456744
+gru_lstm,2016,Risk & uncertainty,0.10917078424166281
+gru_lstm,2016,Domestic news,0.11689914775755454
+gru_lstm,2016,Foreign news,0.13639470357488315
+gru_lstm,2017,Flow history,0.23972029211971568
+gru_lstm,2017,Global equity markets,0.23736809382795368
+gru_lstm,2017,Rates & FX,0.11176368307480293
+gru_lstm,2017,Macro fundamentals,0.06274477173408877
+gru_lstm,2017,Risk & uncertainty,0.10826176114370965
+gru_lstm,2017,Domestic news,0.10990100021529416
+gru_lstm,2017,Foreign news,0.1302403978844351
+gru_lstm,2018,Flow history,0.21018660175360607
+gru_lstm,2018,Global equity markets,0.34529784635224214
+gru_lstm,2018,Rates & FX,0.10751083697772165
+gru_lstm,2018,Macro fundamentals,0.07122652253823021
+gru_lstm,2018,Risk & uncertainty,0.09116864097457575
+gru_lstm,2018,Domestic news,0.0801645784932244
+gru_lstm,2018,Foreign news,0.09444497291039956
+gru_lstm,2019,Flow history,0.2424883752522089
+gru_lstm,2019,Global equity markets,0.3185651343368864
+gru_lstm,2019,Rates & FX,0.07049115730843089
+gru_lstm,2019,Macro fundamentals,0.08135833819564584
+gru_lstm,2019,Risk & uncertainty,0.09683328643694189
+gru_lstm,2019,Domestic news,0.07968624945205567
+gru_lstm,2019,Foreign news,0.11057745901783055
+gru_lstm,2020,Flow history,0.26562656877461394
+gru_lstm,2020,Global equity markets,0.3513722333067843
+gru_lstm,2020,Rates & FX,0.033493474430157
+gru_lstm,2020,Macro fundamentals,0.0634810829036649
+gru_lstm,2020,Risk & uncertainty,0.12402523237199567
+gru_lstm,2020,Domestic news,0.068404634480252
+gru_lstm,2020,Foreign news,0.09359677373253222
+gru_lstm,2021,Flow history,0.35068314851672877
+gru_lstm,2021,Global equity markets,0.2593359557746841
+gru_lstm,2021,Rates & FX,0.09136519780842628
+gru_lstm,2021,Macro fundamentals,0.07675917488560172
+gru_lstm,2021,Risk & uncertainty,0.09702185248249875
+gru_lstm,2021,Domestic news,0.058052647329613315
+gru_lstm,2021,Foreign news,0.06678202320244717
+gru_lstm,2022,Flow history,0.22677676610474895
+gru_lstm,2022,Global equity markets,0.3567409704404112
+gru_lstm,2022,Rates & FX,0.05358352328286013
+gru_lstm,2022,Macro fundamentals,0.11643432625161398
+gru_lstm,2022,Risk & uncertainty,0.12647999573216778
+gru_lstm,2022,Domestic news,0.05720473198873416
+gru_lstm,2022,Foreign news,0.06277968619946382
+gru_lstm,2023,Flow history,0.24785087305996578
+gru_lstm,2023,Global equity markets,0.2963814997907927
+gru_lstm,2023,Rates & FX,0.04970898654575765
+gru_lstm,2023,Macro fundamentals,0.17191547154219577
+gru_lstm,2023,Risk & uncertainty,0.05156274292699825
+gru_lstm,2023,Domestic news,0.09616833829090432
+gru_lstm,2023,Foreign news,0.08641208784338555
+gru_lstm,2024,Flow history,0.2922658358527048
+gru_lstm,2024,Global equity markets,0.2383052520065284
+gru_lstm,2024,Rates & FX,0.08791966546864534
+gru_lstm,2024,Macro fundamentals,0.11552762660483794
+gru_lstm,2024,Risk & uncertainty,0.08595456141470521
+gru_lstm,2024,Domestic news,0.05884815993665745
+gru_lstm,2024,Foreign news,0.12117889871592072
+gru_lstm,2025,Flow history,0.28517686816519683
+gru_lstm,2025,Global equity markets,0.2616846857273516
+gru_lstm,2025,Rates & FX,0.08333143616223479
+gru_lstm,2025,Macro fundamentals,0.05000944779132416
+gru_lstm,2025,Risk & uncertainty,0.15858049383725292
+gru_lstm,2025,Domestic news,0.05011249633867452
+gru_lstm,2025,Foreign news,0.11110457197796522
+gru_lstm,2026,Flow history,0.35023958495305696
+gru_lstm,2026,Global equity markets,0.1873191524575316
+gru_lstm,2026,Rates & FX,0.0391186030744778
+gru_lstm,2026,Macro fundamentals,0.03837640405466123
+gru_lstm,2026,Risk & uncertainty,0.2037889693752219
+gru_lstm,2026,Domestic news,0.09481629183646048
+gru_lstm,2026,Foreign news,0.08634099424859003
+bigru_lstm,2015,Flow history,0.1891801638217564
+bigru_lstm,2015,Global equity markets,0.25529261941631526
+bigru_lstm,2015,Rates & FX,0.030998299827143663
+bigru_lstm,2015,Macro fundamentals,0.17310521117138922
+bigru_lstm,2015,Risk & uncertainty,0.1327227377066826
+bigru_lstm,2015,Domestic news,0.09931145309447727
+bigru_lstm,2015,Foreign news,0.1193895149622356
+bigru_lstm,2016,Flow history,0.15680055314333818
+bigru_lstm,2016,Global equity markets,0.25521409195079825
+bigru_lstm,2016,Rates & FX,0.05156411504380678
+bigru_lstm,2016,Macro fundamentals,0.16198207548963514
+bigru_lstm,2016,Risk & uncertainty,0.1286881141286132
+bigru_lstm,2016,Domestic news,0.10402654720597657
+bigru_lstm,2016,Foreign news,0.14172450303783196
+bigru_lstm,2017,Flow history,0.2242898342294145
+bigru_lstm,2017,Global equity markets,0.20418943877709628
+bigru_lstm,2017,Rates & FX,0.1041612528847017
+bigru_lstm,2017,Macro fundamentals,0.07728943230284407
+bigru_lstm,2017,Risk & uncertainty,0.14151820736385323
+bigru_lstm,2017,Domestic news,0.08813003628956995
+bigru_lstm,2017,Foreign news,0.16042179815252036
+bigru_lstm,2018,Flow history,0.19590548342641448
+bigru_lstm,2018,Global equity markets,0.3291122209222871
+bigru_lstm,2018,Rates & FX,0.1071304584350758
+bigru_lstm,2018,Macro fundamentals,0.0801642809546998
+bigru_lstm,2018,Risk & uncertainty,0.11931549698017238
+bigru_lstm,2018,Domestic news,0.06966815304952699
+bigru_lstm,2018,Foreign news,0.09870390623182364
+bigru_lstm,2019,Flow history,0.25975070164959313
+bigru_lstm,2019,Global equity markets,0.27324617348870733
+bigru_lstm,2019,Rates & FX,0.0671713382558559
+bigru_lstm,2019,Macro fundamentals,0.1145387475369554
+bigru_lstm,2019,Risk & uncertainty,0.10887030036679012
+bigru_lstm,2019,Domestic news,0.07124533977349927
+bigru_lstm,2019,Foreign news,0.10517739892859884
+bigru_lstm,2020,Flow history,0.25561837518609226
+bigru_lstm,2020,Global equity markets,0.32486471398353434
+bigru_lstm,2020,Rates & FX,0.027819768999892823
+bigru_lstm,2020,Macro fundamentals,0.12139681873658441
+bigru_lstm,2020,Risk & uncertainty,0.09194279022174981
+bigru_lstm,2020,Domestic news,0.06459292074751961
+bigru_lstm,2020,Foreign news,0.11376461212462662
+bigru_lstm,2021,Flow history,0.35198086115693056
+bigru_lstm,2021,Global equity markets,0.2468612653287247
+bigru_lstm,2021,Rates & FX,0.07960164744808879
+bigru_lstm,2021,Macro fundamentals,0.10398008536695284
+bigru_lstm,2021,Risk & uncertainty,0.07996048158866143
+bigru_lstm,2021,Domestic news,0.04742290065998126
+bigru_lstm,2021,Foreign news,0.09019275845066048
+bigru_lstm,2022,Flow history,0.23450569979752794
+bigru_lstm,2022,Global equity markets,0.35468882930753165
+bigru_lstm,2022,Rates & FX,0.0459612492224668
+bigru_lstm,2022,Macro fundamentals,0.11103386571359654
+bigru_lstm,2022,Risk & uncertainty,0.1302481102714885
+bigru_lstm,2022,Domestic news,0.049403184384892745
+bigru_lstm,2022,Foreign news,0.07415906130249568
+bigru_lstm,2023,Flow history,0.2855460924687312
+bigru_lstm,2023,Global equity markets,0.2689010232754352
+bigru_lstm,2023,Rates & FX,0.04947141327873682
+bigru_lstm,2023,Macro fundamentals,0.16744593581847653
+bigru_lstm,2023,Risk & uncertainty,0.052762794239312266
+bigru_lstm,2023,Domestic news,0.0658093471878002
+bigru_lstm,2023,Foreign news,0.110063393731508
+bigru_lstm,2024,Flow history,0.2914939430802824
+bigru_lstm,2024,Global equity markets,0.1990689766742471
+bigru_lstm,2024,Rates & FX,0.06815372922343467
+bigru_lstm,2024,Macro fundamentals,0.16010813767707752
+bigru_lstm,2024,Risk & uncertainty,0.07589057412757522
+bigru_lstm,2024,Domestic news,0.049969805424651584
+bigru_lstm,2024,Foreign news,0.1553148337927315
+bigru_lstm,2025,Flow history,0.2649161054569071
+bigru_lstm,2025,Global equity markets,0.22717815677865852
+bigru_lstm,2025,Rates & FX,0.07940402586521038
+bigru_lstm,2025,Macro fundamentals,0.07094335130413547
+bigru_lstm,2025,Risk & uncertainty,0.17389020695414129
+bigru_lstm,2025,Domestic news,0.06977689061296805
+bigru_lstm,2025,Foreign news,0.11389126302797918
+bigru_lstm,2026,Flow history,0.33929931087279913
+bigru_lstm,2026,Global equity markets,0.16662449417084998
+bigru_lstm,2026,Rates & FX,0.05651651795089288
+bigru_lstm,2026,Macro fundamentals,0.06456761099422023
+bigru_lstm,2026,Risk & uncertainty,0.2386087847819411
+bigru_lstm,2026,Domestic news,0.08705016080891202
+bigru_lstm,2026,Foreign news,0.047333120420384636
+bilstm,2015,Flow history,0.18310299992529638
+bilstm,2015,Global equity markets,0.26285615898164
+bilstm,2015,Rates & FX,0.038540928338143404
+bilstm,2015,Macro fundamentals,0.16966345488019882
+bilstm,2015,Risk & uncertainty,0.13377259999227836
+bilstm,2015,Domestic news,0.12231102733723868
+bilstm,2015,Foreign news,0.08975283054520435
+bilstm,2016,Flow history,0.1563859671185498
+bilstm,2016,Global equity markets,0.2718105292681888
+bilstm,2016,Rates & FX,0.062120561989591774
+bilstm,2016,Macro fundamentals,0.1587471585947983
+bilstm,2016,Risk & uncertainty,0.1174240048584923
+bilstm,2016,Domestic news,0.11993939833619029
+bilstm,2016,Foreign news,0.11357237983418876
+bilstm,2017,Flow history,0.23631841017093244
+bilstm,2017,Global equity markets,0.20580732412267125
+bilstm,2017,Rates & FX,0.11196038725002952
+bilstm,2017,Macro fundamentals,0.08323628969585346
+bilstm,2017,Risk & uncertainty,0.12753906797346523
+bilstm,2017,Domestic news,0.11690847942240479
+bilstm,2017,Foreign news,0.1182300413646434
+bilstm,2018,Flow history,0.20148764973958772
+bilstm,2018,Global equity markets,0.31877995272166987
+bilstm,2018,Rates & FX,0.10533899671233317
+bilstm,2018,Macro fundamentals,0.08532122094575921
+bilstm,2018,Risk & uncertainty,0.10211237984155624
+bilstm,2018,Domestic news,0.0974384037647335
+bilstm,2018,Foreign news,0.08952139627436032
+bilstm,2019,Flow history,0.24652114691070723
+bilstm,2019,Global equity markets,0.2967083657016205
+bilstm,2019,Rates & FX,0.07735060873701001
+bilstm,2019,Macro fundamentals,0.08239243082214215
+bilstm,2019,Risk & uncertainty,0.12359933665551626
+bilstm,2019,Domestic news,0.07251638690789922
+bilstm,2019,Foreign news,0.10091172426510477
+bilstm,2020,Flow history,0.26756110660145443
+bilstm,2020,Global equity markets,0.3705534810868522
+bilstm,2020,Rates & FX,0.029502752386195034
+bilstm,2020,Macro fundamentals,0.07389359151076808
+bilstm,2020,Risk & uncertainty,0.09772971272063827
+bilstm,2020,Domestic news,0.06418876883910798
+bilstm,2020,Foreign news,0.09657058685498403
+bilstm,2021,Flow history,0.3558831451049166
+bilstm,2021,Global equity markets,0.25720298612297177
+bilstm,2021,Rates & FX,0.09843425662216594
+bilstm,2021,Macro fundamentals,0.06827945046813019
+bilstm,2021,Risk & uncertainty,0.08963979952869312
+bilstm,2021,Domestic news,0.06194532972537449
+bilstm,2021,Foreign news,0.0686150324277479
+bilstm,2022,Flow history,0.2170522196558566
+bilstm,2022,Global equity markets,0.3573408160146975
+bilstm,2022,Rates & FX,0.05314492882681351
+bilstm,2022,Macro fundamentals,0.11161611387770193
+bilstm,2022,Risk & uncertainty,0.12481280762273042
+bilstm,2022,Domestic news,0.0667015459333382
+bilstm,2022,Foreign news,0.06933156806886173
+bilstm,2023,Flow history,0.25009633755036365
+bilstm,2023,Global equity markets,0.28080219144026664
+bilstm,2023,Rates & FX,0.04414944842313832
+bilstm,2023,Macro fundamentals,0.19626451306566414
+bilstm,2023,Risk & uncertainty,0.061453299971644455
+bilstm,2023,Domestic news,0.09171904287444475
+bilstm,2023,Foreign news,0.07551516667447827
+bilstm,2024,Flow history,0.30054977343048656
+bilstm,2024,Global equity markets,0.23127104620872946
+bilstm,2024,Rates & FX,0.07651692285219981
+bilstm,2024,Macro fundamentals,0.11264782142483659
+bilstm,2024,Risk & uncertainty,0.08224090487665531
+bilstm,2024,Domestic news,0.07028454515699893
+bilstm,2024,Foreign news,0.12648898605009332
+bilstm,2025,Flow history,0.2964095757571695
+bilstm,2025,Global equity markets,0.2633540880999703
+bilstm,2025,Rates & FX,0.05273123827190155
+bilstm,2025,Macro fundamentals,0.05569639124047174
+bilstm,2025,Risk & uncertainty,0.1601597634349136
+bilstm,2025,Domestic news,0.05482077254260228
+bilstm,2025,Foreign news,0.11682817065297114
+bilstm,2026,Flow history,0.3245278514052957
+bilstm,2026,Global equity markets,0.17121905086337338
+bilstm,2026,Rates & FX,0.02992928183141594
+bilstm,2026,Macro fundamentals,0.0425156287657008
+bilstm,2026,Risk & uncertainty,0.19458076729493848
+bilstm,2026,Domestic news,0.11558771812399742
+bilstm,2026,Foreign news,0.12163970171527827
+darnn,2015,Flow history,0.18593507040248466
+darnn,2015,Global equity markets,0.024954084920197264
+darnn,2015,Rates & FX,0.09217593189022291
+darnn,2015,Macro fundamentals,0.15099486557292016
+darnn,2015,Risk & uncertainty,0.2728515148478352
+darnn,2015,Domestic news,0.13388143617044163
+darnn,2015,Foreign news,0.13920709619589822
+darnn,2016,Flow history,0.22003250533917224
+darnn,2016,Global equity markets,0.03207481636568465
+darnn,2016,Rates & FX,0.07389169793812735
+darnn,2016,Macro fundamentals,0.18312281995075422
+darnn,2016,Risk & uncertainty,0.14184309021093947
+darnn,2016,Domestic news,0.18383305901670915
+darnn,2016,Foreign news,0.16520201117861286
+darnn,2017,Flow history,0.3428098032899818
+darnn,2017,Global equity markets,0.024674549134586717
+darnn,2017,Rates & FX,0.06428341352172107
+darnn,2017,Macro fundamentals,0.16555525228988222
+darnn,2017,Risk & uncertainty,0.13226237927335982
+darnn,2017,Domestic news,0.13079436760547514
+darnn,2017,Foreign news,0.13962023488499312
+darnn,2018,Flow history,0.3712279548502008
+darnn,2018,Global equity markets,0.03900178527205959
+darnn,2018,Rates & FX,0.1348941410351963
+darnn,2018,Macro fundamentals,0.15522438614863898
+darnn,2018,Risk & uncertainty,0.11112246294725447
+darnn,2018,Domestic news,0.11603580660625512
+darnn,2018,Foreign news,0.07249346314039448
+darnn,2019,Flow history,0.37519738432357264
+darnn,2019,Global equity markets,0.041826591316463754
+darnn,2019,Rates & FX,0.10011554102988265
+darnn,2019,Macro fundamentals,0.1951437726378592
+darnn,2019,Risk & uncertainty,0.05535481030647529
+darnn,2019,Domestic news,0.11168797443605333
+darnn,2019,Foreign news,0.12067392594969321
+darnn,2020,Flow history,0.42741613729500777
+darnn,2020,Global equity markets,0.05485089252593411
+darnn,2020,Rates & FX,0.05149288977903969
+darnn,2020,Macro fundamentals,0.1522405670246679
+darnn,2020,Risk & uncertainty,0.13097947835238255
+darnn,2020,Domestic news,0.08076899305797756
+darnn,2020,Foreign news,0.1022510419649905
+darnn,2021,Flow history,0.4463636172588007
+darnn,2021,Global equity markets,0.03312535955561703
+darnn,2021,Rates & FX,0.08578565725452743
+darnn,2021,Macro fundamentals,0.18035314984244732
+darnn,2021,Risk & uncertainty,0.12359980609239564
+darnn,2021,Domestic news,0.06730553805686713
+darnn,2021,Foreign news,0.06346687193934476
+darnn,2022,Flow history,0.3481939407075739
+darnn,2022,Global equity markets,0.06961668332172989
+darnn,2022,Rates & FX,0.11836764240561093
+darnn,2022,Macro fundamentals,0.21238075033734047
+darnn,2022,Risk & uncertainty,0.08578845255351643
+darnn,2022,Domestic news,0.09476783688153083
+darnn,2022,Foreign news,0.0708846937926975
+darnn,2023,Flow history,0.4352411746713111
+darnn,2023,Global equity markets,0.02971012282940213
+darnn,2023,Rates & FX,0.07376953577834738
+darnn,2023,Macro fundamentals,0.2459335869248291
+darnn,2023,Risk & uncertainty,0.05100143594619085
+darnn,2023,Domestic news,0.09872837301578649
+darnn,2023,Foreign news,0.0656157708341328
+darnn,2024,Flow history,0.46401518473430214
+darnn,2024,Global equity markets,0.03812059678587201
+darnn,2024,Rates & FX,0.12241457491380493
+darnn,2024,Macro fundamentals,0.16631091290135513
+darnn,2024,Risk & uncertainty,0.03969899108459293
+darnn,2024,Domestic news,0.057580043808631645
+darnn,2024,Foreign news,0.11185969577144134
+darnn,2025,Flow history,0.36419378237334726
+darnn,2025,Global equity markets,0.029888109996106613
+darnn,2025,Rates & FX,0.1092079390476045
+darnn,2025,Macro fundamentals,0.1157051992957392
+darnn,2025,Risk & uncertainty,0.06594153115451618
+darnn,2025,Domestic news,0.2488305370518549
+darnn,2025,Foreign news,0.06623290108083126
+darnn,2026,Flow history,0.4946560678256525
+darnn,2026,Global equity markets,0.01909672308414542
+darnn,2026,Rates & FX,0.04935001287147757
+darnn,2026,Macro fundamentals,0.06021514921363512
+darnn,2026,Risk & uncertainty,0.08133303122812494
+darnn,2026,Domestic news,0.1711740514038985
+darnn,2026,Foreign news,0.12417496437306602
+itransformer,2015,Flow history,0.791827094089969
+itransformer,2015,Global equity markets,0.04576782138160054
+itransformer,2015,Rates & FX,0.020392701146013954
+itransformer,2015,Macro fundamentals,0.026532809321399085
+itransformer,2015,Risk & uncertainty,0.03130711790267886
+itransformer,2015,Domestic news,0.04510011424365198
+itransformer,2015,Foreign news,0.039072341914686635
+itransformer,2016,Flow history,0.7414535320188291
+itransformer,2016,Global equity markets,0.054299849694054304
+itransformer,2016,Rates & FX,0.025319672849693657
+itransformer,2016,Macro fundamentals,0.032665435983468084
+itransformer,2016,Risk & uncertainty,0.041913416359607034
+itransformer,2016,Domestic news,0.0502833562115327
+itransformer,2016,Foreign news,0.05406473688281509
+itransformer,2017,Flow history,0.7732293961311193
+itransformer,2017,Global equity markets,0.04761111201166622
+itransformer,2017,Rates & FX,0.026917062123520175
+itransformer,2017,Macro fundamentals,0.025767717399252023
+itransformer,2017,Risk & uncertainty,0.030533188111768944
+itransformer,2017,Domestic news,0.04627907606727858
+itransformer,2017,Foreign news,0.04966244815539486
+itransformer,2018,Flow history,0.7674968296584518
+itransformer,2018,Global equity markets,0.04980889538537696
+itransformer,2018,Rates & FX,0.022153017756589437
+itransformer,2018,Macro fundamentals,0.024136681088967583
+itransformer,2018,Risk & uncertainty,0.037878223980265024
+itransformer,2018,Domestic news,0.05260230976515383
+itransformer,2018,Foreign news,0.045924042365195386
+itransformer,2019,Flow history,0.8103312210377234
+itransformer,2019,Global equity markets,0.04233643027875652
+itransformer,2019,Rates & FX,0.016932219401042035
+itransformer,2019,Macro fundamentals,0.027387119418358846
+itransformer,2019,Risk & uncertainty,0.02747023966109341
+itransformer,2019,Domestic news,0.03874936739823238
+itransformer,2019,Foreign news,0.03679340280479347
+itransformer,2020,Flow history,0.80538711367953
+itransformer,2020,Global equity markets,0.042383258263442955
+itransformer,2020,Rates & FX,0.018488840775673886
+itransformer,2020,Macro fundamentals,0.026716313870720675
+itransformer,2020,Risk & uncertainty,0.03183554940904848
+itransformer,2020,Domestic news,0.04243377619044043
+itransformer,2020,Foreign news,0.03275514781114343
+itransformer,2021,Flow history,0.8204242397376567
+itransformer,2021,Global equity markets,0.038409404797470625
+itransformer,2021,Rates & FX,0.017908423849932294
+itransformer,2021,Macro fundamentals,0.021488628619877718
+itransformer,2021,Risk & uncertainty,0.025151295923415688
+itransformer,2021,Domestic news,0.03729049669643432
+itransformer,2021,Foreign news,0.039327510375212815
+itransformer,2022,Flow history,0.8220763260782429
+itransformer,2022,Global equity markets,0.04020334878735548
+itransformer,2022,Rates & FX,0.019273157956642802
+itransformer,2022,Macro fundamentals,0.02205098523638789
+itransformer,2022,Risk & uncertainty,0.023704311867138124
+itransformer,2022,Domestic news,0.03332815023793047
+itransformer,2022,Foreign news,0.039363719836302186
+itransformer,2023,Flow history,0.819530751874973
+itransformer,2023,Global equity markets,0.039109869182157746
+itransformer,2023,Rates & FX,0.022048754617435135
+itransformer,2023,Macro fundamentals,0.023105891479517103
+itransformer,2023,Risk & uncertainty,0.02740052491135185
+itransformer,2023,Domestic news,0.03530386617628741
+itransformer,2023,Foreign news,0.03350034175827779
+itransformer,2024,Flow history,0.834441976578884
+itransformer,2024,Global equity markets,0.03585737735541821
+itransformer,2024,Rates & FX,0.01872968175086529
+itransformer,2024,Macro fundamentals,0.02227122860708154
+itransformer,2024,Risk & uncertainty,0.0225981650865859
+itransformer,2024,Domestic news,0.030533299019106203
+itransformer,2024,Foreign news,0.03556827160205892
+itransformer,2025,Flow history,0.8108997271096898
+itransformer,2025,Global equity markets,0.03891146173122416
+itransformer,2025,Rates & FX,0.019862126762513546
+itransformer,2025,Macro fundamentals,0.024543646621106682
+itransformer,2025,Risk & uncertainty,0.031161554958564572
+itransformer,2025,Domestic news,0.03715360078911246
+itransformer,2025,Foreign news,0.03746788202778858
+itransformer,2026,Flow history,0.8635389845101685
+itransformer,2026,Global equity markets,0.02820642252267026
+itransformer,2026,Rates & FX,0.015577694687141293
+itransformer,2026,Macro fundamentals,0.014930340451365747
+itransformer,2026,Risk & uncertainty,0.020246889781764928
+itransformer,2026,Domestic news,0.02503782008620139
+itransformer,2026,Foreign news,0.03246184796068789
+random_forest,2015,Flow history,0.36943500075626173
+random_forest,2015,Global equity markets,0.26773760733482854
+random_forest,2015,Rates & FX,0.016880200837474865
+random_forest,2015,Macro fundamentals,0.10007635369282904
+random_forest,2015,Risk & uncertainty,0.06458675054020906
+random_forest,2015,Domestic news,0.10858316944996019
+random_forest,2015,Foreign news,0.07270091738843651
+random_forest,2016,Flow history,0.3336755282689758
+random_forest,2016,Global equity markets,0.30620137203163283
+random_forest,2016,Rates & FX,0.02696836998295821
+random_forest,2016,Macro fundamentals,0.08049961188629184
+random_forest,2016,Risk & uncertainty,0.05638488127441976
+random_forest,2016,Domestic news,0.11552030552406997
+random_forest,2016,Foreign news,0.0807499310316517
+random_forest,2017,Flow history,0.34508709343113386
+random_forest,2017,Global equity markets,0.3015507885930707
+random_forest,2017,Rates & FX,0.016626115318720613
+random_forest,2017,Macro fundamentals,0.07252622640083231
+random_forest,2017,Risk & uncertainty,0.05459718989341962
+random_forest,2017,Domestic news,0.12252750295978629
+random_forest,2017,Foreign news,0.08708508340303658
+random_forest,2018,Flow history,0.3484746659265244
+random_forest,2018,Global equity markets,0.3590359411064481
+random_forest,2018,Rates & FX,0.01493907307800688
+random_forest,2018,Macro fundamentals,0.05431959883697168
+random_forest,2018,Risk & uncertainty,0.04012216551409679
+random_forest,2018,Domestic news,0.10739440348109736
+random_forest,2018,Foreign news,0.07571415205685494
+random_forest,2019,Flow history,0.3561138065939447
+random_forest,2019,Global equity markets,0.30829105905091264
+random_forest,2019,Rates & FX,0.025620583785204227
+random_forest,2019,Macro fundamentals,0.0741248362404236
+random_forest,2019,Risk & uncertainty,0.055892155243747105
+random_forest,2019,Domestic news,0.10281700111707012
+random_forest,2019,Foreign news,0.07714055796869741
+random_forest,2020,Flow history,0.3748874918705609
+random_forest,2020,Global equity markets,0.28042053474242223
+random_forest,2020,Rates & FX,0.010756125157015595
+random_forest,2020,Macro fundamentals,0.06332082177747457
+random_forest,2020,Risk & uncertainty,0.06130965599581192
+random_forest,2020,Domestic news,0.1171838538719638
+random_forest,2020,Foreign news,0.09212151658475086
+random_forest,2021,Flow history,0.39680643529090376
+random_forest,2021,Global equity markets,0.2909896084793196
+random_forest,2021,Rates & FX,0.017369144750955866
+random_forest,2021,Macro fundamentals,0.053883611506649366
+random_forest,2021,Risk & uncertainty,0.04959542567520947
+random_forest,2021,Domestic news,0.10868393906034808
+random_forest,2021,Foreign news,0.0826718352366137
+random_forest,2022,Flow history,0.38815541078132554
+random_forest,2022,Global equity markets,0.3396735865049669
+random_forest,2022,Rates & FX,0.01797739610872687
+random_forest,2022,Macro fundamentals,0.06083083905879417
+random_forest,2022,Risk & uncertainty,0.041038198765939525
+random_forest,2022,Domestic news,0.08927337778793668
+random_forest,2022,Foreign news,0.06305119099231042
+random_forest,2023,Flow history,0.346343052735062
+random_forest,2023,Global equity markets,0.3015610045325428
+random_forest,2023,Rates & FX,0.01823153912897705
+random_forest,2023,Macro fundamentals,0.10656709039263122
+random_forest,2023,Risk & uncertainty,0.04962231374903381
+random_forest,2023,Domestic news,0.10783969037698246
+random_forest,2023,Foreign news,0.06983530908477083
+random_forest,2024,Flow history,0.37469529817942415
+random_forest,2024,Global equity markets,0.3114189010123933
+random_forest,2024,Rates & FX,0.026285964608768014
+random_forest,2024,Macro fundamentals,0.0819671122689579
+random_forest,2024,Risk & uncertainty,0.041440693653217585
+random_forest,2024,Domestic news,0.09035045583874293
+random_forest,2024,Foreign news,0.0738415744384961
+random_forest,2025,Flow history,0.44106850731609354
+random_forest,2025,Global equity markets,0.27248166785642647
+random_forest,2025,Rates & FX,0.02029322005404369
+random_forest,2025,Macro fundamentals,0.07151281610025309
+random_forest,2025,Risk & uncertainty,0.06463997272567991
+random_forest,2025,Domestic news,0.07551457823821006
+random_forest,2025,Foreign news,0.05448923770929318
+random_forest,2026,Flow history,0.41948150148850966
+random_forest,2026,Global equity markets,0.25651005453320697
+random_forest,2026,Rates & FX,0.010284329894456087
+random_forest,2026,Macro fundamentals,0.05331408902343075
+random_forest,2026,Risk & uncertainty,0.11342560781902139
+random_forest,2026,Domestic news,0.07409238498999347
+random_forest,2026,Foreign news,0.07289203225138169
+xgboost,2015,Flow history,0.2626625961775181
+xgboost,2015,Global equity markets,0.25678122556308847
+xgboost,2015,Rates & FX,0.021642201414834087
+xgboost,2015,Macro fundamentals,0.09929204433621712
+xgboost,2015,Risk & uncertainty,0.07990710962606248
+xgboost,2015,Domestic news,0.16248421592920675
+xgboost,2015,Foreign news,0.11723060695307305
+xgboost,2016,Flow history,0.22756850673825305
+xgboost,2016,Global equity markets,0.2777317358160028
+xgboost,2016,Rates & FX,0.028691577625226436
+xgboost,2016,Macro fundamentals,0.07985719052785442
+xgboost,2016,Risk & uncertainty,0.07232063527013029
+xgboost,2016,Domestic news,0.1812640104016056
+xgboost,2016,Foreign news,0.13256634362092745
+xgboost,2017,Flow history,0.23120630788118757
+xgboost,2017,Global equity markets,0.28571217193729886
+xgboost,2017,Rates & FX,0.023535402129926036
+xgboost,2017,Macro fundamentals,0.07973414046942058
+xgboost,2017,Risk & uncertainty,0.06440104051569363
+xgboost,2017,Domestic news,0.175062542598256
+xgboost,2017,Foreign news,0.14034839446821723
+xgboost,2018,Flow history,0.24656522519971155
+xgboost,2018,Global equity markets,0.33110486905607545
+xgboost,2018,Rates & FX,0.02703776717637071
+xgboost,2018,Macro fundamentals,0.06078445946910634
+xgboost,2018,Risk & uncertainty,0.048644552961141396
+xgboost,2018,Domestic news,0.16437320931120197
+xgboost,2018,Foreign news,0.12148991682639264
+xgboost,2019,Flow history,0.2678270273823898
+xgboost,2019,Global equity markets,0.28782407367560847
+xgboost,2019,Rates & FX,0.027928746367123836
+xgboost,2019,Macro fundamentals,0.062222103736696094
+xgboost,2019,Risk & uncertainty,0.06668681951595445
+xgboost,2019,Domestic news,0.165249271440735
+xgboost,2019,Foreign news,0.12226195788149212
+xgboost,2020,Flow history,0.28836981223174446
+xgboost,2020,Global equity markets,0.26348322008817343
+xgboost,2020,Rates & FX,0.014654159883124572
+xgboost,2020,Macro fundamentals,0.05427089563925455
+xgboost,2020,Risk & uncertainty,0.06131541879890752
+xgboost,2020,Domestic news,0.18064938166735894
+xgboost,2020,Foreign news,0.13725711169143665
+xgboost,2021,Flow history,0.31041098896316427
+xgboost,2021,Global equity markets,0.26303997891639547
+xgboost,2021,Rates & FX,0.023741999682401985
+xgboost,2021,Macro fundamentals,0.05440460486129656
+xgboost,2021,Risk & uncertainty,0.055033858317108934
+xgboost,2021,Domestic news,0.16383996998501188
+xgboost,2021,Foreign news,0.12952859927462088
+xgboost,2022,Flow history,0.29966377561256424
+xgboost,2022,Global equity markets,0.321731351800587
+xgboost,2022,Rates & FX,0.02729694683322985
+xgboost,2022,Macro fundamentals,0.050572763673340085
+xgboost,2022,Risk & uncertainty,0.05217712884795028
+xgboost,2022,Domestic news,0.14519474343928984
+xgboost,2022,Foreign news,0.10336328979303866
+xgboost,2023,Flow history,0.2678715092922216
+xgboost,2023,Global equity markets,0.2861895432405409
+xgboost,2023,Rates & FX,0.026049790103249332
+xgboost,2023,Macro fundamentals,0.094942308708353
+xgboost,2023,Risk & uncertainty,0.05292440742942145
+xgboost,2023,Domestic news,0.1632281994340299
+xgboost,2023,Foreign news,0.10879424179218387
+xgboost,2024,Flow history,0.29892698383787314
+xgboost,2024,Global equity markets,0.292168694513898
+xgboost,2024,Rates & FX,0.031737531673392716
+xgboost,2024,Macro fundamentals,0.07114032351498441
+xgboost,2024,Risk & uncertainty,0.04714557515855983
+xgboost,2024,Domestic news,0.14386498698180308
+xgboost,2024,Foreign news,0.11501590431948897
+xgboost,2025,Flow history,0.35774607167233957
+xgboost,2025,Global equity markets,0.2551367497706952
+xgboost,2025,Rates & FX,0.03123014075867384
+xgboost,2025,Macro fundamentals,0.06545217136320938
+xgboost,2025,Risk & uncertainty,0.07977342846629795
+xgboost,2025,Domestic news,0.11955422923886312
+xgboost,2025,Foreign news,0.09110720872992088
+xgboost,2026,Flow history,0.3690001026102073
+xgboost,2026,Global equity markets,0.23637061242260646
+xgboost,2026,Rates & FX,0.013788488419419563
+xgboost,2026,Macro fundamentals,0.05734599935431589
+xgboost,2026,Risk & uncertainty,0.09611044942694917
+xgboost,2026,Domestic news,0.1079226807945214
+xgboost,2026,Foreign news,0.11946166697198009
+lightgbm,2015,Flow history,0.30717789532242507
+lightgbm,2015,Global equity markets,0.28181311711814705
+lightgbm,2015,Rates & FX,0.022822351581009717
+lightgbm,2015,Macro fundamentals,0.13310829967527993
+lightgbm,2015,Risk & uncertainty,0.0885413032372041
+lightgbm,2015,Domestic news,0.1035827040877093
+lightgbm,2015,Foreign news,0.06295432897822482
+lightgbm,2016,Flow history,0.27490610969232004
+lightgbm,2016,Global equity markets,0.3158694557379231
+lightgbm,2016,Rates & FX,0.032256092158615475
+lightgbm,2016,Macro fundamentals,0.11479585300874719
+lightgbm,2016,Risk & uncertainty,0.07570422947469503
+lightgbm,2016,Domestic news,0.11238181377556589
+lightgbm,2016,Foreign news,0.07408644615213328
+lightgbm,2017,Flow history,0.2961961616556882
+lightgbm,2017,Global equity markets,0.324477514174448
+lightgbm,2017,Rates & FX,0.026600613789652523
+lightgbm,2017,Macro fundamentals,0.1140199156042365
+lightgbm,2017,Risk & uncertainty,0.05621328480845086
+lightgbm,2017,Domestic news,0.09859813115033238
+lightgbm,2017,Foreign news,0.08389437881719143
+lightgbm,2018,Flow history,0.31327688571972795
+lightgbm,2018,Global equity markets,0.3754722580478498
+lightgbm,2018,Rates & FX,0.02205280221662958
+lightgbm,2018,Macro fundamentals,0.08159348541630862
+lightgbm,2018,Risk & uncertainty,0.04432147933442068
+lightgbm,2018,Domestic news,0.0959046630734888
+lightgbm,2018,Foreign news,0.0673784261915746
+lightgbm,2019,Flow history,0.3301400480979067
+lightgbm,2019,Global equity markets,0.3139654443383641
+lightgbm,2019,Rates & FX,0.029938101799673853
+lightgbm,2019,Macro fundamentals,0.09428771397820274
+lightgbm,2019,Risk & uncertainty,0.06181896655462947
+lightgbm,2019,Domestic news,0.10241385801640566
+lightgbm,2019,Foreign news,0.06743586721481758
+lightgbm,2020,Flow history,0.3773478153486269
+lightgbm,2020,Global equity markets,0.29829920769527934
+lightgbm,2020,Rates & FX,0.01604128318841383
+lightgbm,2020,Macro fundamentals,0.08269482059751833
+lightgbm,2020,Risk & uncertainty,0.04488206741992404
+lightgbm,2020,Domestic news,0.1024812360486102
+lightgbm,2020,Foreign news,0.0782535697016273
+lightgbm,2021,Flow history,0.4001544801708348
+lightgbm,2021,Global equity markets,0.2921301850840066
+lightgbm,2021,Rates & FX,0.020070129401532036
+lightgbm,2021,Macro fundamentals,0.07050197512210964
+lightgbm,2021,Risk & uncertainty,0.05176514944838664
+lightgbm,2021,Domestic news,0.08823586421698325
+lightgbm,2021,Foreign news,0.07714221655614713
+lightgbm,2022,Flow history,0.3749352558293049
+lightgbm,2022,Global equity markets,0.363660979748794
+lightgbm,2022,Rates & FX,0.034007804903384745
+lightgbm,2022,Macro fundamentals,0.053105249263152646
+lightgbm,2022,Risk & uncertainty,0.04329885759649346
+lightgbm,2022,Domestic news,0.07468177192978734
+lightgbm,2022,Foreign news,0.05631008072908287
+lightgbm,2023,Flow history,0.33965388710103817
+lightgbm,2023,Global equity markets,0.3140616168899146
+lightgbm,2023,Rates & FX,0.030336829548419115
+lightgbm,2023,Macro fundamentals,0.12121668488538838
+lightgbm,2023,Risk & uncertainty,0.04442012702062094
+lightgbm,2023,Domestic news,0.09223049108677614
+lightgbm,2023,Foreign news,0.05808036346784278
+lightgbm,2024,Flow history,0.38247569243890733
+lightgbm,2024,Global equity markets,0.3088406615825453
+lightgbm,2024,Rates & FX,0.036958161126952625
+lightgbm,2024,Macro fundamentals,0.09249456894358257
+lightgbm,2024,Risk & uncertainty,0.03835250661052633
+lightgbm,2024,Domestic news,0.07557592244365469
+lightgbm,2024,Foreign news,0.06530248685383112
+lightgbm,2025,Flow history,0.4314233837732571
+lightgbm,2025,Global equity markets,0.27631976871217007
+lightgbm,2025,Rates & FX,0.03131064550079197
+lightgbm,2025,Macro fundamentals,0.08773589457038665
+lightgbm,2025,Risk & uncertainty,0.04489969795014443
+lightgbm,2025,Domestic news,0.07047430817030206
+lightgbm,2025,Foreign news,0.05783630132294762
+lightgbm,2026,Flow history,0.4704238714002925
+lightgbm,2026,Global equity markets,0.24003726288379057
+lightgbm,2026,Rates & FX,0.013844347350347067
+lightgbm,2026,Macro fundamentals,0.0625684184711177
+lightgbm,2026,Risk & uncertainty,0.053242828722882614
+lightgbm,2026,Domestic news,0.0691890936135461
+lightgbm,2026,Foreign news,0.09069417755802334

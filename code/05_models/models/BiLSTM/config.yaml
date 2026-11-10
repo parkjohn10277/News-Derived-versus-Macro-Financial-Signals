@@ -1,0 +1,48 @@
+# ============================================================================
+# E0-E7 grid, DIRECTION CLASSIFIER (net buy vs net sell).
+# Same data, split, feature groups and AUX clipping as the regression folders,
+# so the two variants are directly comparable on identical days.
+# ============================================================================
+
+input:   data/input.csv
+results: results                 # results/<model>/E{k}/seed_{s}/
+
+data:
+  start: 2015-02-28
+  end:   null                    # null = last date in input.csv
+
+split:                           # 80 / 10 / 10 of 2,780 usable rows
+  #  train 2015-03-02~2024-03-12 (2224) | val 2024-03-13~2025-05-07 (278)
+  #  test  2025-05-08~2026-06-26 ( 278)
+  val_start:  2024-03-13         # phase-1 validation block  (epoch selection)
+  train_end:  2025-05-07         # official train end        (phase-2 refit)
+  test_start: 2025-05-08         # final test block
+
+seeds: [42, 43, 44, 45, 46]
+
+model:
+  name: bilstm
+  T: 30                          # lookback window
+  params:                        # passed to src/models/bilstm.py: build(n_features, T, params)
+    hidden: 64                   # per direction (reference script: 64)
+    num_layers: 1
+    dropout: 0.2
+
+train:
+  loss: bce                      # BCEWithLogitsLoss -- the model emits a LOGIT, no sigmoid
+  optimizer: adam                # adam | adamw
+  lr: 0.001
+  weight_decay: 0.0
+  batch_size: 64
+  max_epochs: 100
+  early_stopping_patience: 10
+  min_delta: 0.000001
+  grad_clip: 1.0
+  use_scheduler: false
+  
+classification:
+  threshold: 0.5                 # P(net buy) >= threshold -> predict net buy
+  magnitude_weighting: false     # true = weight each training day by |arcsinh(flow / scale_c)|
+
+preprocess:
+  aux_z_clip: 3.0                # z-score clip on AUX features after scaling; <=0 disables

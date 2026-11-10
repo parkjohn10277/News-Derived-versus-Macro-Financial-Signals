@@ -1,0 +1,46 @@
+Test days 278, net-buy share 0.442. Models: seed-ensemble probabilities over seeds [42, 43, 44, 45, 46]. Input: input_gdp_corrected.csv (as in GDP_corrected/models).
+
+=== Naive baselines
+  majority     AUC 0.5000  DA 0.5576  BalAcc 0.5000  MCC +0.000
+  persistence  AUC 0.6332  DA 0.6007  BalAcc 0.5958  MCC +0.191
+  logit flow+SOX AUC 0.6776  DA 0.6187  BrierSkill +0.0550
+
+=== AUC by feature set: logistic regression vs the ten models (seed ensemble)
+exp                      E0      E1      E2      E3      E4      E5      E6      E7
+model                                                                              
+BiGRU-LSTM           0.6485  0.6979  0.6475  0.6501  0.6415  0.6821  0.6926  0.6714
+BiLSTM               0.6526  0.7069  0.6506  0.6494  0.6497  0.7083  0.7072  0.7032
+CNN-LSTM             0.6529  0.7066  0.6444  0.6464  0.6401  0.7018  0.7008  0.7051
+DA-RNN               0.6497  0.6387  0.6538  0.6376  0.6347  0.6478  0.6415  0.6235
+GRU-LSTM             0.6483  0.6944  0.6480  0.6494  0.6517  0.6984  0.6982  0.6979
+LSTM                 0.6495  0.7068  0.6517  0.6453  0.6435  0.7015  0.7016  0.6973
+LightGBM             0.6272  0.7189  0.6253  0.6398  0.6224  0.7081  0.7192  0.7041
+Logistic regression  0.6528  0.7118  0.6448  0.6413  0.6395  0.7007  0.7070  0.6987
+Random Forest        0.6603  0.7124  0.5949  0.6520  0.6080  0.6883  0.7167  0.6893
+XGBoost              0.6435  0.7093  0.6012  0.6477  0.6186  0.6847  0.7149  0.6843
+iTransformer         0.6584  0.6757  0.6554  0.6595  0.6573  0.6684  0.6715  0.6679
+mean of 10 models    0.6491  0.6968  0.6373  0.6477  0.6367  0.6889  0.6964  0.6844
+
+=== Models significantly different from the logit (DeLong raw p<0.05, Holm<0.05)
+  E0: better -  worse -  (Holm<0.05: 0)
+  E1: better -  worse ['DA-RNN', 'iTransformer']  (Holm<0.05: 1)
+  E2: better -  worse ['Random Forest']  (Holm<0.05: 0)
+  E3: better -  worse -  (Holm<0.05: 0)
+  E4: better -  worse -  (Holm<0.05: 0)
+  E5: better -  worse ['DA-RNN']  (Holm<0.05: 0)
+  E6: better -  worse ['DA-RNN', 'iTransformer']  (Holm<0.05: 1)
+  E7: better -  worse ['DA-RNN']  (Holm<0.05: 1)
+
+=== Block effects inside the logistic regression (x100 AUC)
+  AUX  E1 vs E0  dAUC  +5.90  DeLong p=0.000  boot p=0.000  DM-Brier p=0.004
+  AUX  E5 vs E2  dAUC  +5.59  DeLong p=0.000  boot p=0.000  DM-Brier p=0.000
+  AUX  E6 vs E3  dAUC  +6.57  DeLong p=0.000  boot p=0.000  DM-Brier p=0.018
+  AUX  E7 vs E4  dAUC  +5.92  DeLong p=0.000  boot p=0.000  DM-Brier p=0.000
+  LLM  E3 vs E0  dAUC  -1.15  DeLong p=0.020  boot p=0.015  DM-Brier p=0.006
+  LLM  E4 vs E2  dAUC  -0.54  DeLong p=0.212  boot p=0.141  DM-Brier p=0.038
+  LLM  E6 vs E1  dAUC  -0.48  DeLong p=0.389  boot p=0.360  DM-Brier p=0.056
+  LLM  E7 vs E5  dAUC  -0.20  DeLong p=0.604  boot p=0.558  DM-Brier p=0.489
+  LDA  E2 vs E0  dAUC  -0.80  DeLong p=0.265  boot p=0.225  DM-Brier p=0.329
+  LDA  E4 vs E3  dAUC  -0.18  DeLong p=0.809  boot p=0.792  DM-Brier p=0.703
+  LDA  E5 vs E1  dAUC  -1.11  DeLong p=0.121  boot p=0.103  DM-Brier p=0.891
+  LDA  E7 vs E6  dAUC  -0.83  DeLong p=0.292  boot p=0.235  DM-Brier p=0.352

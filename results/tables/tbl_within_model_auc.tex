@@ -1,0 +1,29 @@
+\begin{table}[t]
+\caption{Within-model tests of the information blocks, AUC (test period). For each model, $\Delta$ is the mean change in AUC ($\times 100$) from adding the block over four matched experiment pairs and five seeds, and $p$ is the Cauchy-combined $p$-value of the 20 DeLong tests. Bold and italic entries mark combined $p<0.05$ for an improvement and a deterioration, respectively.}
+\label{tbl:within_auc}
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{} l rr rr rr @{}}
+\toprule
+ & \multicolumn{2}{c}{AUX} & \multicolumn{2}{c}{LLM} & \multicolumn{2}{c}{LDA} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+Model & $\Delta$ & $p$ & $\Delta$ & $p$ & $\Delta$ & $p$ \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{Machine learning}} \\
+\quad Random Forest & {\boldmath\bfseries \phantom{$-$}6.76} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.58 & 0.149 & \textit{$-$4.18} & \textit{0.004} \\
+\quad XGBoost & {\boldmath\bfseries \phantom{$-$}6.69} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.61 & 0.475 & \textit{$-$3.16} & \textit{0.012} \\
+\quad LightGBM & {\boldmath\bfseries \phantom{$-$}8.19} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.15 & 0.344 & $-$1.25 & 0.184 \\
+\addlinespace[2pt]
+\multicolumn{7}{@{}l}{\textit{Transformer}} \\
+\quad iTransformer & {\boldmath\bfseries \phantom{$-$}1.47} & {\boldmath\bfseries 0.022} & $-$0.04 & 0.125 & $-$0.41 & 0.584 \\
+\addlinespace[2pt]
+\multicolumn{7}{@{}l}{\textit{LSTM-based}} \\
+\quad DA-RNN & \textit{$-$1.02} & \textit{0.048} & \textit{$-$1.88} & \textit{0.011} & \textit{$-$0.45} & \textit{0.026} \\
+\quad BiLSTM & {\boldmath\bfseries \phantom{$-$}5.49} & {\boldmath\bfseries $<$0.001} & $-$0.25 & 0.445 & $-$0.19 & 0.728 \\
+\quad LSTM & {\boldmath\bfseries \phantom{$-$}5.29} & {\boldmath\bfseries $<$0.001} & $-$0.57 & 0.325 & $-$0.36 & 0.831 \\
+\quad CNN-LSTM & {\boldmath\bfseries \phantom{$-$}5.47} & {\boldmath\bfseries $<$0.001} & $-$0.28 & 0.486 & $-$0.40 & 0.880 \\
+\quad GRU-LSTM & {\boldmath\bfseries \phantom{$-$}4.77} & {\boldmath\bfseries $<$0.001} & \phantom{$-$}0.12 & 0.609 & \phantom{$-$}0.09 & 0.782 \\
+\quad BiGRU-LSTM & {\boldmath\bfseries \phantom{$-$}3.79} & {\boldmath\bfseries 0.010} & $-$0.65 & 0.210 & $-$1.31 & 0.054 \\
+\bottomrule
+\end{tabular}
+\end{table}

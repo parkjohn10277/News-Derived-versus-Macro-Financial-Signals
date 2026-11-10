@@ -1,0 +1,63 @@
+Expanding-origin check with all ten models (seed-mean AUC; block effect = mean over 4 matched pairs, x100).
+Wilcoxon signed-rank test across the ten models (per window) and across window x model (pooled).
+
+Runs complete (40 per window and model):
+window        W1  W2  W3  W4
+model                       
+RandomForest  ok  ok  ok  ok
+XGBoost       ok  ok  ok  ok
+LightGBM      ok  ok  ok  ok
+iTransformer  ok  ok  ok  ok
+LSTM          ok  ok  ok  ok
+CNN-LSTM      ok  ok  ok  ok
+GRU-LSTM      ok  ok  ok  ok
+BiGRU-LSTM    ok  ok  ok  ok
+BiLSTM        ok  ok  ok  ok
+DA-RNN        ok  ok  ok  ok
+Logit         ok  ok  ok  ok
+
+=== Block effects, ten models
+block window     test_period  n_models  mean_d_auc_x100  n_improved  wilcoxon_p
+  AUX     W1            2022        10           1.1135           7      0.1602
+  AUX     W2            2023        10           2.9911           8      0.0098
+  AUX     W3            2024        10           2.1933           9      0.0840
+  AUX     W4 2025-26 (paper)        10           4.6891           9      0.0039
+  AUX pooled        all four        40           2.7468          33      0.0000
+  LLM     W1            2022        10          -0.2229           4      0.6953
+  LLM     W2            2023        10          -1.1017           0      0.0020
+  LLM     W3            2024        10          -0.2959           1      0.0645
+  LLM     W4 2025-26 (paper)        10          -0.2218           4      0.4922
+  LLM pooled        all four        40          -0.4606           9      0.0018
+  LDA     W1            2022        10          -2.0387           4      0.0840
+  LDA     W2            2023        10          -1.6292           1      0.0039
+  LDA     W3            2024        10           0.4788           8      0.0488
+  LDA     W4 2025-26 (paper)        10          -1.1612           1      0.0039
+  LDA pooled        all four        40          -1.0876          14      0.0026
+
+=== Mean effect by model family
+window                    W1    W2    W3    W4   all
+block family                                        
+AUX   LSTM-based        0.03  2.65  2.31  3.96  2.24
+      Machine learning  3.74  4.70  2.69  7.21  4.59
+      Transformer      -0.27 -0.08  0.03  1.47  0.29
+LDA   LSTM-based       -4.04 -2.10  0.75 -0.44 -1.46
+      Machine learning  1.20 -1.31 -0.12 -2.86 -0.77
+      Transformer       0.25  0.25  0.64 -0.41  0.18
+LLM   LSTM-based       -1.17 -1.42 -0.18 -0.59 -0.84
+      Machine learning  1.60 -0.81 -0.39  0.44  0.21
+      Transformer       0.00 -0.07 -0.69 -0.04 -0.20
+
+=== Logit benchmark (same protocol), block effects
+window    W1    W2    W3    W4
+block                         
+AUX     1.95  4.19  2.31  5.99
+LDA    -2.61 -2.94 -1.03 -0.73
+LLM    -1.20 -0.90 -0.32 -0.59
+
+=== Mean AUC of the ten models by window
+experiment     E0     E1     E2     E3     E4     E5     E6     E7  E1-E0
+window                                                                   
+W1          0.711  0.730  0.700  0.713  0.692  0.702  0.726  0.703  0.019
+W2          0.638  0.659  0.616  0.624  0.602  0.648  0.651  0.641  0.022
+W3          0.682  0.698  0.682  0.681  0.680  0.713  0.698  0.703  0.016
+W4          0.647  0.693  0.635  0.645  0.634  0.684  0.693  0.678  0.046

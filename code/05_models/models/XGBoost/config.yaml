@@ -1,0 +1,43 @@
+# ============================================================================
+# E0-E7 grid, tree DIRECTION CLASSIFIER, single-split two-phase protocol.
+# Split and feature groups are identical to the regression folders, so the
+# two variants are directly comparable on the same days.
+# Change `model.name` to switch architecture; everything else stays fixed.
+# ============================================================================
+
+input:   data/input.csv
+results: results                 # results/<model>/E{k}/seed_{s}/
+
+data:
+  start: 2015-02-28
+  end:   null                    # null = last date in input.csv
+
+split:                           # 80 / 10 / 10 of 2,780 usable rows
+  #  train 2015-03-02~2024-03-12 (2224) | val 2024-03-13~2025-05-07 (278)
+  #  test  2025-05-08~2026-06-26 ( 278)
+  val_start:  2024-03-13         # phase-1 validation block (hyperparameter search)
+  train_end:  2025-05-07         # official train end       (phase-2 refit)
+  test_start: 2025-05-08         # final test block
+
+seeds: [42, 43, 44, 45, 46]
+
+model:
+  name: xgboost                  # random_forest | xgboost | lightgbm
+
+features:
+  # each input column is expanded into these lags; lag 0 = the most recent day.
+  # [0, 1, 2, 5, 10, 20] spans the same 30 days the recurrent models see.
+  # Use [0] for strict Chun et al. replication (current day only).
+  lags: [0, 1, 2, 5, 10, 20, 29]   # lag k = day t-1-k: covers the same 30 days as the sequence models
+
+classification:
+  threshold: 0.5                 # P(net buy) >= threshold -> predict net buy
+
+search:
+  cv: holdout                    # holdout = the 2025 block used by every other folder | tscv
+                                 # scored by neg_log_loss (not MSE)
+  n_iter: 30                     # RandomizedSearchCV budget
+  n_jobs: -1
+
+preprocess:
+  aux_z_clip: 3.0                # z-score clip on AUX features after Yeo-Johnson; <=0 disables

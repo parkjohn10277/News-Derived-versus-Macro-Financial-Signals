@@ -1,0 +1,24 @@
+\begin{table}[t]
+\caption{Across-model tests of the information blocks and feature sets, AUC (test period). $\Delta$ is the mean change in AUC ($\times 100$) across the 10 models.}
+\label{tbl:block_auc}
+\centering\footnotesize
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{} l r c r @{}}
+\toprule
+Comparison & $\Delta$ & Improved & $p$ \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Information blocks}} \\
+\quad AUX & +4.69 & 9/10 & 0.004$^{***}$ \\
+\quad LLM & $-$0.22 & 4/10 & 0.492 \\
+\quad LDA & $-$1.16 & 1/10 & 0.004$^{***}$ \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Feature sets}} \\
+\quad E6 vs E0 & +4.55 & 9/10 & 0.004$^{***}$ \\
+\quad E7 vs E0 & +3.14 & 9/10 & 0.020$^{**}$ \\
+\quad E6 vs E1 & $-$0.00 & 5/10 & 0.922 \\
+\quad E7 vs E1 & $-$1.42 & 2/10 & 0.010$^{***}$ \\
+\quad E7 vs E6 & $-$1.42 & 1/10 & 0.010$^{***}$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\raggedright\footnotesize\textit{Note:} Blocks are tested over the four matched experiment pairs (AUX: E1--E0, E5--E2, E6--E3, E7--E4; LLM: E3--E0, E4--E2, E6--E1, E7--E5; LDA: E2--E0, E4--E3, E5--E1, E7--E6). Each model's effect is averaged over five seeds (and the pairs); $p$ is from a two-sided Wilcoxon signed-rank test across the 10 models. Improved = number of models that improve. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{table}

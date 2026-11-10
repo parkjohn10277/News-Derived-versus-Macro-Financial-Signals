@@ -1,0 +1,20 @@
+# Restricted data: never commit
+data/input_gdp_corrected.csv
+data/input_aligned.csv
+**/data/input*.csv
+**/predictions.csv
+code/**/results/
+code/**/checkpoints/
+*.pt
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.parquet
+*.model
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

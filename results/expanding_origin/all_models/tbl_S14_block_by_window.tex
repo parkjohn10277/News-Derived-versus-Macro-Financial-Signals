@@ -1,0 +1,24 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\caption{Change in test AUC ($\times 100$) from adding each information block, by test year. In each window the models are tuned on the validation year, refitted on all earlier data and evaluated once on the test year; 2025--26 is the main test period. Each entry is the mean over the ten models of the average change across the block's four matched pairs of feature sets, with the five seeds averaged first. In parentheses, the number of models that improve. $p$ is from a two-sided Wilcoxon signed-rank test across the ten models (40 window--model effects for the pooled column). The logistic regression is shown for reference and is not part of the tests. The 2025--26 column equals Table~\ref{tbl:block_auc} of the main text. The LDA topics are those of the main analysis, estimated on the full corpus, and the LLM may have seen news from 2022--24 in pretraining; both can only favour the text features in the earlier windows.}
+\label{tbl:expanding_origin_blocks}
+\begin{tabular}{@{} l l ccccc @{}}
+\toprule
+ & & 2022 & 2023 & 2024 & 2025--26 & Pooled \\
+\midrule
+Macro-financial (AUX) & Ten models & $+1.11$ (7/10) & $+2.99$ (8/10) & $+2.19$ (9/10) & $+4.69$ (9/10) & $+2.75$ (33/40) \\
+ & $p$ & 0.160 & 0.010 & 0.084 & 0.004 & $<0.001$ \\
+ & Logistic regression & $+1.95$ & $+4.19$ & $+2.31$ & $+5.99$ & -- \\
+\addlinespace[3pt]
+LDA topics & Ten models & $-2.04$ (4/10) & $-1.63$ (1/10) & $+0.48$ (8/10) & $-1.16$ (1/10) & $-1.09$ (14/40) \\
+ & $p$ & 0.084 & 0.004 & 0.049 & 0.004 & 0.003 \\
+ & Logistic regression & $-2.61$ & $-2.94$ & $-1.03$ & $-0.73$ & -- \\
+\addlinespace[3pt]
+LLM sentiment & Ten models & $-0.22$ (4/10) & $-1.10$ (0/10) & $-0.30$ (1/10) & $-0.22$ (4/10) & $-0.46$ (9/40) \\
+ & $p$ & 0.695 & 0.002 & 0.065 & 0.492 & 0.002 \\
+ & Logistic regression & $-1.20$ & $-0.90$ & $-0.32$ & $-0.59$ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

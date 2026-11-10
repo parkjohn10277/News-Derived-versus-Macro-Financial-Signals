@@ -1,0 +1,18 @@
+block,unit,metric,n,mean_effect,median_effect,n_improves,wilcoxon_W,p_two_sided
+AUX,model (mean of 4 pairs),d_auc,10,0.0468913,0.0538185,9,1,0.00390625
+AUX,model (mean of 4 pairs),d_brier,10,-0.0144698,-0.0173904,9,2,0.00585938
+AUX,model (mean of 4 pairs),d_logloss,10,-0.0321917,-0.0384917,9,2,0.00585938
+AUX,all model x pair (non-independent),d_auc,200,0.0468913,0.0525308,187,500.5,2.2409e-31
+LLM,model (mean of 4 pairs),d_auc,10,-0.00221781,-0.00141883,4,20,0.492188
+LLM,model (mean of 4 pairs),d_brier,10,0.00122044,0.00069104,4,13,0.160156
+LLM,model (mean of 4 pairs),d_logloss,10,0.00433593,0.00238304,3,11,0.105469
+LLM,all model x pair (non-independent),d_auc,200,-0.00221781,-0.00249148,79,8242.5,0.0274218
+LDA,model (mean of 4 pairs),d_auc,10,-0.0116125,-0.00431091,1,1,0.00390625
+LDA,model (mean of 4 pairs),d_brier,10,0.00254278,0.00235182,3,9,0.0644531
+LDA,model (mean of 4 pairs),d_logloss,10,0.00716296,0.00749903,2,4,0.0136719
+LDA,all model x pair (non-independent),d_auc,200,-0.0116125,-0.00676633,52,3632,4.83756e-15
+E6 vs E0,model,d_auc,10,0.0455327,0.049305,9,1,0.00390625
+E7 vs E0,model,d_auc,10,0.031368,0.0405035,9,5,0.0195312
+E7 vs E1,model,d_auc,10,-0.0141946,-0.0132704,2,3,0.00976562
+E6 vs E1,model,d_auc,10,-2.98977e-05,-0.000571728,5,26,0.921875
+E7 vs E6,model,d_auc,10,-0.0141647,-0.0106845,1,3,0.00976562
