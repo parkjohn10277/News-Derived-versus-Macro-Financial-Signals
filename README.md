@@ -40,6 +40,8 @@ code/
   08_figures_tables/     scripts that build the figures and LaTeX tables in the paper
 data/
   macro_public/          original public macro-financial series (see data/README.md)
+  krx_firm_list.csv      the 150 firms (stock code, Korean and English name)
+  KRX_DOWNLOAD_GUIDE.md  how to download and rebuild the KRX foreign-flow series
   input_schema.md        column layout of the model input panel (the panel itself is not included)
 results/
   main_GDP_corrected/    results_all.csv (per model x set x seed) and results_summary.csv (Table "performance")
@@ -58,7 +60,7 @@ The study combines data from several providers, and not all of it can be redistr
 
 | Data | In this repository | How to obtain |
 |---|---|---|
-| Firm-level investor-type trading records (KRX) | **No**: proprietary | [KRX Data Marketplace](https://data.krx.co.kr), under its terms of use |
+| Firm-level investor-type trading records (KRX) | **No**: KRX terms prohibit redistribution. The firm list (`data/krx_firm_list.csv`) and a step-by-step download guide (`data/KRX_DOWNLOAD_GUIDE.md`) are included | [KRX Data Marketplace](https://data.krx.co.kr), free account |
 | MCST NOW Platform news | **No**: provided for this research only | Ministry of Culture, Sports and Tourism, [now.go.kr](https://www.now.go.kr) |
 | NAVER News, GDELT, The New York Times articles | **No**: subject to the providers' terms of service | the providers' public APIs, using `code/01_news/` |
 | VKOSPI, S&P 500, PHLX SOX and other global equity indices | **No**: index licences | KRX, S&P Dow Jones Indices, Nasdaq or a market data vendor |

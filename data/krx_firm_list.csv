@@ -1,0 +1,151 @@
+﻿no,stock_code,name_ko,name_en
+1,005930,삼성전자,"Samsung Electronics Co., Ltd."
+2,000660,SK하이닉스,SK hynix Inc.
+3,042700,한미반도체,"HANMI Semiconductor Co., Ltd."
+4,036930,주성엔지니어링,"JUSUNG ENGINEERING CO., LTD."
+5,064760,티씨케이,"Tokai Carbon Korea Co., Ltd."
+6,058470,리노공업,LEENO Industrial Inc.
+7,000990,DB하이텍,"DB HiTek Co., Ltd."
+8,039030,이오테크닉스,"EO Technics Co., Ltd."
+9,067310,하나마이크론,HANA Micron Inc.
+10,031980,피에스케이홀딩스,PSK HOLDINGS INC.
+11,005290,동진쎄미켐,"DONGJIN SEMICHEM CO., LTD."
+12,131970,두산테스나,DOOSAN TESNA Inc.
+13,095340,ISC,"ISC Co., Ltd."
+14,084370,유진테크,"Eugene Technology Co., Ltd."
+15,080220,제주반도체,Jeju Semiconductor Corp.
+16,104830,원익머트리얼즈,"WONIK Materials Co., Ltd."
+17,092070,디엔에프,"DNF Co., Ltd."
+18,232140,와이씨,YC Corporation
+19,101490,에스앤에스텍,S&S TECH Corporation
+20,036540,SFA반도체,"SFA Semicon Co., Ltd."
+21,108320,LX세미콘,"LX Semicon Co., Ltd."
+22,054450,텔레칩스,Telechips Inc.
+23,102120,어보브반도체,"ABOV Semiconductor Co., Ltd."
+24,036810,에프에스티,"FST Co., Ltd."
+25,033640,네패스,NEPES Corporation
+26,095610,테스,"TES Co., Ltd."
+27,101160,월덱스,"WORLDEX INDUSTRY & TRADING CO., LTD."
+28,003160,디아이,DI Corporation
+29,083450,GST,"Global Standard Technology Co., Ltd."
+30,061970,LB세미콘,LB Semicon Inc.
+31,089030,테크윙,"Techwing, Inc."
+32,036200,유니셈,"UNISEM Co., Ltd."
+33,053610,프로텍,"PROTEC Co., Ltd."
+34,083310,엘오티베큠,"LOT Vacuum Co., Ltd."
+35,039440,에스티아이,"STI Co., Ltd."
+36,089890,코세스,COSES Inc.
+37,114810,한솔아이원스,"Hansol IONES Co., Ltd."
+38,074600,원익QnC,WONIK QnC Corporation
+39,077360,덕산하이메탈,"DUKSAN HI-METAL CO., LTD."
+40,097800,원팩,WINPAC INC.
+41,102710,이엔에프테크놀로지,"ENF Technology Co., Ltd."
+42,033170,시그네틱스,Signetics Corporation
+43,080520,오디텍,"ODTech Co., Ltd."
+44,086390,유니테스트,UniTest Inc.
+45,098120,마이크로컨텍솔루션,"Micro Contact Solution Co.,Ltd."
+46,089790,제이티,JT Corporation.
+47,171010,램테크놀러지,"RAM TECHNOLOGY CO., LTD."
+48,032580,피델릭스,"Fidelix Co., Ltd."
+49,030530,원익홀딩스,"WONIK HOLDINGS CO.,LTD."
+50,029460,케이씨,"KC CO., LTD."
+51,064290,인텍플러스,"INTEKPLUS CO., LTD"
+52,033160,엠케이전자,MKElectron
+53,119830,아이텍,"ITEK, Inc."
+54,052860,아이앤씨,"I&C Technology Co., Ltd."
+55,200710,에이디테크놀러지,"ADTechnology Co., Ltd."
+56,059090,미코,MiCo Ltd.
+57,080580,오킨스전자,"OKins Electronics Co.,Ltd."
+58,170920,엘티씨,"LTC CO.,LTD."
+59,045300,성우테크론,"Sungwoo Techron Co., Ltd."
+60,078350,한양디지텍,"HANYANG DIGITECH CO.,LTD."
+61,025560,미래산업,MIRAE CORPORATION
+62,240810,원익IPS,"WONIK IPS CO., LTD."
+63,319660,피에스케이,PSK INC.
+64,089970,브이엠,VM Inc.
+65,281820,케이씨텍,"KCTECH CO., LTD"
+66,403870,HPSP,"HPSP Co., Ltd."
+67,253590,네오셈,Neosem Inc.
+68,092870,엑시콘,"Exicon Co., Ltd."
+69,330860,네패스아크,NEPES ARK Corporation
+70,200470,에이팩트,"APACT Co., Ltd."
+71,195870,해성디에스,"HAESUNG DS Co.,Ltd."
+72,166090,하나머티리얼즈,Hana Materials Inc.
+73,183300,코미코,KoMiCo Ltd.
+74,357780,솔브레인,"Soulbrain Co., Ltd."
+75,281740,레이크머티리얼즈,"Lake Materials Co., Ltd."
+76,317330,덕산테코피아,"Duksan Techopia Co., Ltd."
+77,241770,메카로,"MECARO.CO.,LTD."
+78,272110,케이엔제이,"KnJ Co.,Ltd."
+79,144960,뉴파워프라즈마,"New Power Plasma Co.,Ltd"
+80,241790,티이엠씨씨엔에스,"TEMC CNS Co., Ltd."
+81,311320,지오엘리먼트,"GO Element Co., Ltd."
+82,417500,제이아이테크,"JI-TECH Co., Ltd."
+83,264660,씨앤지하이테크,"C&G Hi Tech Co., Ltd"
+84,232680,라온테크,RAONTEC Inc.
+85,159010,아스플로,"ASFLOW CO.,LTD."
+86,252990,샘씨엔에스,"SEMCNS Co., Ltd."
+87,146320,비씨엔씨,"BCnC Co., Ltd."
+88,322310,오로스테크놀로지,"AUROS TECHNOLOGY, INC."
+89,348210,넥스틴,NEXTIN Inc.
+90,412350,레이저쎌,Laserssel Co. Ltd.
+91,425420,티에프이,"TFE Co., Ltd."
+92,405100,큐알티,Quality Reliability Technology Inc.
+93,417840,저스템,"Justem.CO.,LTD"
+94,425040,티이엠씨,"TEMC Co., Ltd."
+95,094360,칩스앤미디어,"Chips&Media, Inc."
+96,160980,싸이맥스,CYMECHS Inc.
+97,122640,예스티,"YEST Co.,Ltd."
+98,217190,제너셈,Genesem Inc.
+99,396470,워트,"WOT. Co., Ltd"
+100,131290,티에스이,"TSE CO.,Ltd"
+101,399720,가온칩스,"GAONCHIPS CO., LTD."
+102,445090,에이직랜드,"ASICLAND Co.,Ltd"
+103,394280,오픈엣지테크놀로지,"Openedges Technology, Inc."
+104,440110,파두,FADU INC.
+105,432720,퀄리타스반도체,"QUALITAS SEMICONDUCTOR CO., LTD."
+106,396270,넥스트칩,"Nextchip Co., Ltd."
+107,094170,동운아나텍,"DONGWOON ANATECH CO.,LTD."
+108,172670,에이엘티,"ALT Co.,Ltd."
+109,420770,기가비스,"GigaVis Co., Ltd."
+110,451220,아이엠티,"IMT Co., Ltd."
+111,303030,지니틱스,"Zinitix Co.,Ltd."
+112,356860,티엘비,"TLB Co., Ltd."
+113,424980,마이크로투나노,"MICRO2NANO, INC."
+114,452430,사피엔반도체,Sapien Semiconductors Inc.
+115,348350,위드텍,"WITHTECH, Inc."
+116,429270,시지트로닉스,"Sigetronics, Inc."
+117,452160,제이엔비,"JNB Co.,Ltd"
+118,110990,디아이티,DIT Corp.
+119,087600,픽셀플러스,"Pixelplus. Co., Ltd."
+120,045970,코아시아,CoAsia Corporation
+121,123860,아나패스,"Anapass, Inc."
+122,038880,아이에이,"iA, Inc."
+123,092220,KEC,KEC CORPORATION
+124,140860,파크시스템스,Park Systems Corp.
+125,376190,엘비루셈,"LB Lusem Co., Ltd."
+126,222800,심텍,"SIMMTECH Co., Ltd."
+127,079370,제우스,"ZEUSCO.,LTD."
+128,071280,로체시스템즈,RORZE SYSTEMS CORPORATION
+129,011930,신성이엔지,"SHINSUNG E&G Co.,LTD."
+130,218410,RFHIC,RFHIC CORPORATION
+131,066310,큐에스아이,"QSI Co., Ltd."
+132,014680,한솔케미칼,"Hansol Chemical Co., Ltd"
+133,353200,대덕전자,"DAEDUCK ELECTRONICS CO.,LTD"
+134,007810,코리아써키트,"KOREA CIRCUIT CO.,LTD"
+135,045100,한양이엔지,"HANYANG ENG CO.,LTD"
+136,168360,펨트론,PEMTRON Corporation
+137,317120,라닉스,RANIX INC.
+138,464500,아이언디바이스,Iron Device Corp.
+139,289930,웨이비스,Wavice Inc.
+140,382800,지앤비에스에코,"GnBS eco Co.,Ltd"
+141,112290,영창케미칼 (현 와이씨켐),"YCCHEM CO., LTD."
+142,445180,퓨릿,"Purit Co., Ltd."
+143,402490,그린리소스,"Green Resource Co.,Ltd"
+144,355150,코스텍시스,"KOSTECSYS. CO., LTD."
+145,389020,자람테크놀로지,"Zaram Technology,Inc."
+146,360350,코셈,"COXEM CO., LTD"
+147,049950,미래컴퍼니,Meerecompany Inc.
+148,089010,켐트로닉스,"CHEMTRONICS Co., Ltd."
+149,037350,성도이엔지,SUNGDO Engineering & Construction.
+150,456010,아이씨티케이,"ICTK Co., Ltd."

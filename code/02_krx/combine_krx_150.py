@@ -7,7 +7,7 @@ import re
 # 1. 경로 설정
 # ============================================================
 
-ROOT_DIR = Path(r"E:\준_연구 데이터셋\2_KRX_150")
+ROOT_DIR = Path("data/krx_raw")  # downloaded KRX files, see data/KRX_DOWNLOAD_GUIDE.md
 
 OUTPUT_FILE = ROOT_DIR / "KRX_150_Prediction_ready_wide.csv"
 
