@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Code and public data for: News-Derived versus Macro-Financial Signals"
+license: MIT
+repository-code: "https://github.com/parkjohn10277/korean-semiconductor-foreign-flow"
+authors:
+  - family-names: Park
+    given-names: John
+    orcid: "https://orcid.org/0009-0009-4859-1704"
+  - family-names: Islas Solis
+    given-names: Maximiliano
+    orcid: "https://orcid.org/0009-0001-7470-3273"
+  - family-names: Lee
+    given-names: Seohyun
+    orcid: "https://orcid.org/0000-0002-0007-4419"
+  - family-names: Kong
+    given-names: Duk-Jo
+    orcid: "https://orcid.org/0000-0001-8674-8981"
+preferred-citation:
+  type: article
+  title: "News-Derived versus Macro-Financial Signals: Explainable Forecasting of Foreign Investor Trading Direction in the Korean Semiconductor Industry"
+  journal: "Expert Systems with Applications"
+  status: submitted
+  authors:
+    - family-names: Park
+      given-names: John
+    - family-names: Islas Solis
+      given-names: Maximiliano
+    - family-names: Lee
+      given-names: Seohyun
+    - family-names: Kong
+      given-names: Duk-Jo
