@@ -4,6 +4,10 @@ title: "Code and public data for: News-Derived versus Macro-Financial Signals"
 license: MIT
 abstract: "Code, public data and aggregate results for a study that forecasts whether foreign investors are net buyers or net sellers of Korean semiconductor stocks on the next trading day, and compares macro-financial variables, LDA news topics and LLM news sentiment as predictors across ten deep learning and tree models with SHAP-based explanations."
 keywords:
+  - stock prediction
+  - stock market prediction
+  - 주가 예측
+  - 외국인 순매수 예측
   - foreign investor trading
   - stock direction prediction
   - Korean stock market

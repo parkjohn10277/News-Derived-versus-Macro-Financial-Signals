@@ -61,6 +61,10 @@
 
 This repository holds the code, public data and aggregate results of the paper. It compares three information blocks added to the history of foreign net buying — **macro-financial variables**, **LDA news topics** and **LLM news sentiment** — in a 2³ factorial design across ten forecasting models, and explains the forecasts with SHAP.
 
+**Keywords:** stock prediction, stock market prediction, stock price prediction, stock direction prediction, foreign investor flows, Korean stock market (KOSPI, KOSDAQ), semiconductor stocks, Samsung Electronics, SK hynix, financial time series forecasting, deep learning, machine learning, explainable AI (XAI), SHAP, news sentiment analysis, LLM, LDA topic modeling, macroeconomic indicators, LSTM, iTransformer, LightGBM, XGBoost
+
+**🇰🇷 검색어:** 주가 예측, 주식 예측, 주가 방향 예측, 주식 시장 예측, 외국인 순매수 예측, 외국인 수급, 외국인 투자자, 반도체 주식, 반도체 주가, 삼성전자, SK하이닉스, 코스피, 코스닥, 한국 주식시장, 금융 시계열 예측, 딥러닝 주가 예측, 머신러닝, 인공지능 투자, 뉴스 감성분석, LLM 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), SHAP · [한국어 요약](#한국어-요약)
+
 ## Abstract
 
 Foreign investors are a fundamental driver of the Korean stock market, yet forecasting research has targeted prices and indices rather than their behavior. This study forecasts the next-day net-buy versus net-sell direction of foreign investors in the Korean semiconductor industry within an explainable multi-source framework. Daily net flows of 150 listed firms (2015–2026) are combined with 1.15 million domestic and international news articles, represented by latent Dirichlet allocation (LDA) topics and large language model (LLM)-derived sentiment, and with 13 release-aligned macro-financial variables. Eight feature configurations (E0–E7), forming a 2³ factorial design over the three information blocks, are evaluated across ten forecasting models with within-model and across-model significance tests. Macro-financial variables provide the only consistent gain, raising the mean out-of-sample area under the receiver operating characteristic curve (AUC) from 0.647 to 0.693 and improving nine of ten models; LLM sentiment adds no significant value and LDA topics reduce the AUC. SHapley Additive exPlanations (SHAP) trace most predictive information to recent flow history and global equity returns, with accuracy highest on large-flow days and an asymmetric response to falls in global semiconductor stocks. Foreign-investor trading in a globally integrated industry is thus most informatively tracked by combining recent trading history with global market signals, and each additional information source should be validated for its incremental value before it is adopted.
@@ -311,7 +315,7 @@ We also thank the Ministry of Culture, Sports and Tourism of the Republic of Kor
 - **결과:** 거시·금융 변수를 넣으면 평균 테스트 AUC가 0.647에서 0.693으로 오르고 10개 모델 중 9개가 개선됩니다. 뉴스 토픽과 LLM 감성은 추가 효과가 없었습니다. 최고 성능은 LightGBM(AUC 0.718)입니다.
 - **설명가능 AI:** SHAP과 어텐션 분석으로 어떤 정보·시차·시기가 예측을 이끄는지 확인했습니다.
 
-**키워드:** 외국인 순매수 예측, 외국인 수급, 주가 방향 예측, 반도체 주식, 코스피, 금융 시계열 예측, 뉴스 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), 딥러닝, 머신러닝
+**키워드:** 주가 예측, 주식 예측, 외국인 순매수 예측, 외국인 수급, 주가 방향 예측, 반도체 주가, 삼성전자, SK하이닉스, 반도체 주식, 코스피, 금융 시계열 예측, 뉴스 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), 딥러닝, 머신러닝
 
 ## Licence
 
