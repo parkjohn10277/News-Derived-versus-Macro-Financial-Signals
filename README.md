@@ -4,7 +4,7 @@
 
 # News-Derived versus Macro-Financial Signals
 
-### Explainable Forecasting of Foreign Investor Trading Direction in the Korean Semiconductor Industry
+# Explainable Forecasting of Foreign Investor Trading Direction in the Korean Semiconductor Industry
 
 **John Park · Maximiliano Islas Solis · Seohyun Lee · Duk-Jo Kong**<br>
 <sub>GIST Graduate School of AI Policy and Strategy · KDI School of Public Policy and Management</sub>
