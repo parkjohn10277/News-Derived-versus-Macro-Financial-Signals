@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="74" viewBox="0 0 330 74">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+<style>.t{font:700 19px 'Segoe UI',Helvetica,Arial,sans-serif;fill:url(#g)}.n{font:700 16px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#fff;text-anchor:middle}</style></defs>
+<circle cx="18" cy="37.0" r="15" fill="url(#g)"/><text x="18" y="43.0" class="n">2</text>
+<text x="50" y="30" class="t">News does not</text><text x="50" y="58" class="t">add to them</text>
+</svg>

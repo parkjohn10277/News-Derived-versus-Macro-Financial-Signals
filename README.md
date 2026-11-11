@@ -88,11 +88,11 @@ Foreign investors are a fundamental driver of the Korean stock market, yet forec
 
 | Finding | Evidence |
 |---|---|
-| $\color{#2f81f7}{\textsf{\textbf{Macro-financial variables carry the signal}}}$ | Adding them raises the mean test AUC from **0.647 to 0.693**, and 9 of 10 models improve (Wilcoxon *p* = 0.004). |
-| $\color{#2f81f7}{\textsf{\textbf{News does not add to them}}}$ | LDA topics lower the AUC (−1.16 points, 1 of 10 models improve). LLM sentiment has no significant effect (−0.22 points, *p* = 0.49). |
-| $\color{#2f81f7}{\textsf{\textbf{Best model}}}$ | LightGBM on KRX + macro (E1), **AUC 0.718**. |
-| $\color{#2f81f7}{\textsf{\textbf{Simple baselines matter}}}$ | Without the macro block, no model beats a persistence forecast. No model beats a logistic regression on the same inputs. |
-| $\color{#2f81f7}{\textsf{\textbf{The result holds over time}}}$ | In an expanding-origin evaluation (test years 2022, 2023 and 2024), the macro block raises the AUC in every year. |
+| <img src="assets/findings/f1.svg" width="300" alt="Macro-financial variables carry the signal"> | Adding them raises the mean test AUC from **0.647 to 0.693**, and 9 of 10 models improve (Wilcoxon *p* = 0.004). |
+| <img src="assets/findings/f2.svg" width="300" alt="News does not add to them"> | LDA topics lower the AUC (−1.16 points, 1 of 10 models improve). LLM sentiment has no significant effect (−0.22 points, *p* = 0.49). |
+| <img src="assets/findings/f3.svg" width="300" alt="Best model"> | LightGBM on KRX + macro (E1), **AUC 0.718**. |
+| <img src="assets/findings/f4.svg" width="300" alt="Simple baselines matter"> | Without the macro block, no model beats a persistence forecast. No model beats a logistic regression on the same inputs. |
+| <img src="assets/findings/f5.svg" width="300" alt="The result holds over time"> | In an expanding-origin evaluation (test years 2022, 2023 and 2024), the macro block raises the AUC in every year. |
 
 <table>
   <tr>
@@ -285,9 +285,12 @@ If you use this code, please cite the paper (full reference to be added on publi
 
 <table align="center">
   <tr>
-    <td align="center" valign="middle" width="33%"><a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="150" alt="IMPACT Lab"></a></td>
-    <td align="center" valign="top" width="33%"><a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="160" alt="Prof. Duk-Jo Kong"></a><br><b>Prof.&nbsp;Duk-Jo&nbsp;Kong</b><br><b>공득조</b><br><sub>Vice&nbsp;Dean, Assistant&nbsp;Professor<br>GIST&nbsp;Graduate&nbsp;School of AI&nbsp;Policy&nbsp;and&nbsp;Strategy</sub></td>
-    <td align="center" valign="top" width="33%"><a href="https://www.kdischool.ac.kr/faculty/view.es?mid=a10401010000&type=1&page=2&emp_no=311000339"><img src="assets/prof_seohyun_lee.png" width="160" alt="Prof. Seohyun Lee"></a><br><b>Prof.&nbsp;Seohyun&nbsp;Lee</b><br><b>이서현</b><br><sub>Associate&nbsp;Professor, MPP&nbsp;Program&nbsp;Chair<br>KDI&nbsp;School of Public&nbsp;Policy and&nbsp;Management</sub></td>
+    <td align="center" valign="middle" width="360"><a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="170" alt="IMPACT Lab, GIST"></a></td>
+    <td align="center" valign="middle" width="360"><a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="160" alt="Prof. Duk-Jo Kong"></a><br><b>Prof.&nbsp;Duk-Jo&nbsp;Kong</b><br><b>공득조</b><br><sub>Vice&nbsp;Dean, Assistant&nbsp;Professor<br>GIST&nbsp;Graduate&nbsp;School of AI&nbsp;Policy&nbsp;and&nbsp;Strategy</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" width="360"><a href="https://www.kdischool.ac.kr"><img src="assets/kdi_school_logo.svg" width="300" alt="KDI School of Public Policy and Management"></a></td>
+    <td align="center" valign="middle" width="360"><a href="https://www.kdischool.ac.kr/faculty/view.es?mid=a10401010000&type=1&page=2&emp_no=311000339"><img src="assets/prof_seohyun_lee.png" width="160" alt="Prof. Seohyun Lee"></a><br><b>Prof.&nbsp;Seohyun&nbsp;Lee</b><br><b>이서현</b><br><sub>Associate&nbsp;Professor, MPP&nbsp;Program&nbsp;Chair<br>KDI&nbsp;School of Public&nbsp;Policy and&nbsp;Management</sub></td>
   </tr>
 </table>
 
