@@ -285,8 +285,9 @@ If you use this code, please cite the paper (full reference to be added on publi
 
 <table align="center">
   <tr>
-    <td align="center" width="220"><a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="140" alt="IMPACT Lab"></a></td>
-    <td align="center" width="220"><a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="120" alt="Prof. Duk-Jo Kong"></a><br><b>Prof. Duk-Jo Kong</b> (공득조)<br><sub>Vice Dean, Assistant Professor<br>GIST AI Policy &amp; Strategy Graduate School</sub></td>
+    <td align="center" valign="middle" width="33%"><a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="150" alt="IMPACT Lab"></a></td>
+    <td align="center" valign="top" width="33%"><a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="160" alt="Prof. Duk-Jo Kong"></a><br><b>Prof.&nbsp;Duk-Jo&nbsp;Kong</b><br><b>공득조</b><br><sub>Vice&nbsp;Dean, Assistant&nbsp;Professor<br>GIST&nbsp;Graduate&nbsp;School of AI&nbsp;Policy&nbsp;and&nbsp;Strategy</sub></td>
+    <td align="center" valign="top" width="33%"><a href="https://www.kdischool.ac.kr/faculty/view.es?mid=a10401010000&type=1&page=2&emp_no=311000339"><img src="assets/prof_seohyun_lee.png" width="160" alt="Prof. Seohyun Lee"></a><br><b>Prof.&nbsp;Seohyun&nbsp;Lee</b><br><b>이서현</b><br><sub>Associate&nbsp;Professor, MPP&nbsp;Program&nbsp;Chair<br>KDI&nbsp;School of Public&nbsp;Policy and&nbsp;Management</sub></td>
   </tr>
 </table>
 
