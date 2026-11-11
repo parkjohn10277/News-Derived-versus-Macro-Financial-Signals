@@ -88,11 +88,11 @@ Foreign investors are a fundamental driver of the Korean stock market, yet forec
 
 | Finding | Evidence |
 |---|---|
-| **Macro-financial variables carry the signal** | Adding them raises the mean test AUC from **0.647 to 0.693**, and 9 of 10 models improve (Wilcoxon *p* = 0.004). |
-| **News does not add to them** | LDA topics lower the AUC (−1.16 points, 1 of 10 models improve). LLM sentiment has no significant effect (−0.22 points, *p* = 0.49). |
-| **Best model** | LightGBM on KRX + macro (E1), **AUC 0.718**. |
-| **Simple baselines matter** | Without the macro block, no model beats a persistence forecast. No model beats a logistic regression on the same inputs. |
-| **The result holds over time** | In an expanding-origin evaluation (test years 2022, 2023 and 2024), the macro block raises the AUC in every year. |
+| $\color{#2f81f7}{\textsf{\textbf{Macro-financial variables carry the signal}}}$ | Adding them raises the mean test AUC from **0.647 to 0.693**, and 9 of 10 models improve (Wilcoxon *p* = 0.004). |
+| $\color{#2f81f7}{\textsf{\textbf{News does not add to them}}}$ | LDA topics lower the AUC (−1.16 points, 1 of 10 models improve). LLM sentiment has no significant effect (−0.22 points, *p* = 0.49). |
+| $\color{#2f81f7}{\textsf{\textbf{Best model}}}$ | LightGBM on KRX + macro (E1), **AUC 0.718**. |
+| $\color{#2f81f7}{\textsf{\textbf{Simple baselines matter}}}$ | Without the macro block, no model beats a persistence forecast. No model beats a logistic regression on the same inputs. |
+| $\color{#2f81f7}{\textsf{\textbf{The result holds over time}}}$ | In an expanding-origin evaluation (test years 2022, 2023 and 2024), the macro block raises the AUC in every year. |
 
 <table>
   <tr>
