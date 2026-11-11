@@ -2,72 +2,63 @@
 
 <img src="assets/banner.svg" width="100%" alt="News-Derived versus Macro-Financial Signals — mean test AUC by feature set">
 
-# News-Derived versus Macro-Financial Signals
+<h1>News-Derived versus Macro-Financial Signals: Explainable Forecasting of Foreign Investor Trading Direction in the Korean Semiconductor Industry</h1>
 
-# Explainable Forecasting of Foreign Investor Trading Direction in the Korean Semiconductor Industry
+**John Park<sup>1</sup> · Maximiliano Islas Solis<sup>1</sup> · Seohyun Lee<sup>2</sup> · Duk-Jo Kong<sup>1</sup>**
 
-**John Park · Maximiliano Islas Solis · Seohyun Lee · Duk-Jo Kong**<br>
-<sub>GIST Graduate School of AI Policy and Strategy · KDI School of Public Policy and Management</sub>
+<sup>1</sup> Graduate School of AI Policy and Strategy, GIST &nbsp;&nbsp; <sup>2</sup> KDI School of Public Policy and Management
 
-[![Paper](https://img.shields.io/badge/Paper-ESWA%20(submitted)-0b1220.svg?logo=elsevier&logoColor=white)](#citation)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![SHAP](https://img.shields.io/badge/XAI-SHAP-ff0d57.svg)](https://github.com/shap/shap)
-[![Models](https://img.shields.io/badge/models-10-success.svg)](#models)
-[![Runs](https://img.shields.io/badge/runs-400%20main%20%2B%201%2C480%20robustness-informational.svg)](#robustness)
+<br>
 
-[**Abstract**](#abstract) ·
-[**Key findings**](#key-findings) ·
-[**Design**](#experimental-design) ·
-[**Data**](#data-availability) ·
-[**Reproduce**](#reproducing-the-results) ·
-[**Structure**](#repository-structure) ·
-[**Citation**](#citation) ·
-[**🇰🇷 한국어 요약**](#한국어-요약)
+[![Paper](https://img.shields.io/badge/paper-ESWA%20·%20submitted-13315c?style=flat-square)](#citation)
+[![License](https://img.shields.io/badge/license-MIT-13315c?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11-13315c?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/pytorch-2.x-13315c?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![SHAP](https://img.shields.io/badge/XAI-SHAP-13315c?style=flat-square)](https://github.com/shap/shap)
+[![Models](https://img.shields.io/badge/models-10-38bdf8?style=flat-square)](#models)
+[![Runs](https://img.shields.io/badge/runs-400%20%2B%201%2C480-38bdf8?style=flat-square)](#robustness)
 
-</div>
+<b>
+<a href="#abstract">Abstract</a> &nbsp;·&nbsp;
+<a href="#key-findings">Findings</a> &nbsp;·&nbsp;
+<a href="#experimental-design">Design</a> &nbsp;·&nbsp;
+<a href="#data-availability">Data</a> &nbsp;·&nbsp;
+<a href="#reproducing-the-results">Reproduce</a> &nbsp;·&nbsp;
+<a href="#citation">Citation</a> &nbsp;·&nbsp;
+<a href="#한국어-요약">한국어 요약</a>
+</b>
 
-<div align="center">
+<br><br>
 
 <table>
   <tr>
-    <td align="center" valign="middle" width="50%"><img src="assets/photo_john_park.png" width="140" alt="John Park"/></td>
-    <td align="center" valign="middle" width="50%"><img src="assets/photo_maximiliano_islas_solis.png" width="140" alt="Maximiliano Islas Solis"/></td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="50%"><h3>John Park</h3><b>박준</b></td>
-    <td align="center" valign="middle" width="50%"><h3>Maximiliano Islas Solis</h3><b>MAX</b></td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="50%">M.S. Course · <a href="https://impact.gist.ac.kr/team/students.php">GIST IMPACT Lab</a></td>
-    <td align="center" valign="middle" width="50%">M.S. Course · <a href="https://impact.gist.ac.kr/team/students.php">GIST IMPACT Lab</a></td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="50%">Semiconductor &amp; Financial<br/>Data Forecasting<br/>AI Strategy &amp; Data Analytics</td>
-    <td align="center" valign="middle" width="50%">Data Analysis &amp;<br/>ML Econometrics</td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="50%"><a href="https://github.com/parkjohn10277"><b>@parkjohn10277</b></a></td>
-    <td align="center" valign="middle" width="50%"><a href="https://github.com/MaximilianoIS"><b>@MaximilianoIS</b></a></td>
+    <td align="center" width="50%">
+      <img src="assets/photo_john_park.png" width="220" alt="John Park"><br>
+      <h3>John Park <sub>박준</sub></h3>
+      M.S. student · <a href="https://impact.gist.ac.kr/team/students.php">GIST IMPACT Lab</a><br>
+      <sub>Semiconductor &amp; financial data forecasting · AI strategy &amp; data analytics</sub><br><br>
+      <a href="https://github.com/parkjohn10277"><img src="https://img.shields.io/badge/GitHub-parkjohn10277-181717?style=flat-square&logo=github" alt="GitHub parkjohn10277"></a>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/photo_maximiliano_islas_solis.png" width="220" alt="Maximiliano Islas Solis"><br>
+      <h3>Maximiliano Islas Solis <sub>MAX</sub></h3>
+      M.S. student · <a href="https://impact.gist.ac.kr/team/students.php">GIST IMPACT Lab</a><br>
+      <sub>Data analysis · ML econometrics</sub><br><br>
+      <a href="https://github.com/MaximilianoIS"><img src="https://img.shields.io/badge/GitHub-MaximilianoIS-181717?style=flat-square&logo=github" alt="GitHub MaximilianoIS"></a>
+    </td>
   </tr>
 </table>
+
+<sub>John Park and Maximiliano Islas Solis contributed equally.</sub>
 
 </div>
 
 ---
 
-> **Question.** Will foreign investors be **net buyers or net sellers** of Korean semiconductor stocks tomorrow — and does **news** help forecast it once **macro-financial conditions** are known?
+> [!IMPORTANT]
+> **In one line.** Next-day foreign buying or selling of Korean chip stocks is forecast best by recent flows plus global market and macro-financial signals. Adding news — as LDA topics or LLM sentiment — does not help.
 
 This repository holds the code, public data and aggregate results of the paper. It compares three information blocks added to the history of foreign net buying — **macro-financial variables**, **LDA news topics** and **LLM news sentiment** — in a 2³ factorial design across ten forecasting models, and explains the forecasts with SHAP.
-
-**Keywords:** stock prediction, stock market prediction, stock price prediction, stock direction prediction, foreign investor flows, Korean stock market (KOSPI, KOSDAQ), semiconductor stocks, Samsung Electronics, SK hynix, financial time series forecasting, deep learning, machine learning, explainable AI (XAI), SHAP, news sentiment analysis, LLM, LDA topic modeling, macroeconomic indicators, LSTM, iTransformer, LightGBM, XGBoost
-
-**🇰🇷 검색어:** 주가 예측, 주식 예측, 주가 방향 예측, 주식 시장 예측, 외국인 순매수 예측, 외국인 수급, 외국인 투자자, 반도체 주식, 반도체 주가, 삼성전자, SK하이닉스, 코스피, 코스닥, 한국 주식시장, 금융 시계열 예측, 딥러닝 주가 예측, 머신러닝, 인공지능 투자, 뉴스 감성분석, LLM 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), SHAP · [한국어 요약](#한국어-요약)
-
-## Abstract
-
-Foreign investors are a fundamental driver of the Korean stock market, yet forecasting research has targeted prices and indices rather than their behavior. This study forecasts the next-day net-buy versus net-sell direction of foreign investors in the Korean semiconductor industry within an explainable multi-source framework. Daily net flows of 150 listed firms (2015–2026) are combined with 1.15 million domestic and international news articles, represented by latent Dirichlet allocation (LDA) topics and large language model (LLM)-derived sentiment, and with 13 release-aligned macro-financial variables. Eight feature configurations (E0–E7), forming a 2³ factorial design over the three information blocks, are evaluated across ten forecasting models with within-model and across-model significance tests. Macro-financial variables provide the only consistent gain, raising the mean out-of-sample area under the receiver operating characteristic curve (AUC) from 0.647 to 0.693 and improving nine of ten models; LLM sentiment adds no significant value and LDA topics reduce the AUC. SHapley Additive exPlanations (SHAP) trace most predictive information to recent flow history and global equity returns, with accuracy highest on large-flow days and an asymmetric response to falls in global semiconductor stocks. Foreign-investor trading in a globally integrated industry is thus most informatively tracked by combining recent trading history with global market signals, and each additional information source should be validated for its incremental value before it is adopted.
 
 <table>
   <tr>
@@ -79,6 +70,15 @@ Foreign investors are a fundamental driver of the Korean stock market, yet forec
   </tr>
 </table>
 
+## Abstract
+
+Foreign investors are a fundamental driver of the Korean stock market, yet forecasting research has targeted prices and indices rather than their behavior. This study forecasts the next-day net-buy versus net-sell direction of foreign investors in the Korean semiconductor industry within an explainable multi-source framework. Daily net flows of 150 listed firms (2015–2026) are combined with 1.15 million domestic and international news articles, represented by latent Dirichlet allocation (LDA) topics and large language model (LLM)-derived sentiment, and with 13 release-aligned macro-financial variables. Eight feature configurations (E0–E7), forming a 2³ factorial design over the three information blocks, are evaluated across ten forecasting models with within-model and across-model significance tests. Macro-financial variables provide the only consistent gain, raising the mean out-of-sample area under the receiver operating characteristic curve (AUC) from 0.647 to 0.693 and improving nine of ten models; LLM sentiment adds no significant value and LDA topics reduce the AUC. SHapley Additive exPlanations (SHAP) trace most predictive information to recent flow history and global equity returns, with accuracy highest on large-flow days and an asymmetric response to falls in global semiconductor stocks. Foreign-investor trading in a globally integrated industry is thus most informatively tracked by combining recent trading history with global market signals, and each additional information source should be validated for its incremental value before it is adopted.
+
+<p align="center">
+  <img src="figures/figure1.png" width="100%" alt="Gaps in prior work, approach of this study and contributions">
+  <br><sub><b>Fig. 1.</b> Gaps in prior work, the approach of this study and its contributions.</sub>
+</p>
+
 <p align="center">
   <img src="figures/overview.png" width="100%" alt="Research framework">
   <br><sub><b>Research framework.</b> Data collection → preprocessing → topic and LLM features → forecasting and SHAP.</sub>
@@ -86,7 +86,7 @@ Foreign investors are a fundamental driver of the Korean stock market, yet forec
 
 ## Key findings
 
-| | |
+| Finding | Evidence |
 |---|---|
 | **Macro-financial variables carry the signal** | Adding them raises the mean test AUC from **0.647 to 0.693**, and 9 of 10 models improve (Wilcoxon *p* = 0.004). |
 | **News does not add to them** | LDA topics lower the AUC (−1.16 points, 1 of 10 models improve). LLM sentiment has no significant effect (−0.22 points, *p* = 0.49). |
@@ -283,19 +283,12 @@ If you use this code, please cite the paper (full reference to be added on publi
 
 ## Acknowledgements
 
-<p align="center">
-  <a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="180" alt="IMPACT Lab"></a>
-</p>
-
-<p align="center">
-  <a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="150" alt="Prof. Duk-Jo Kong"></a>
-</p>
-
-<p align="center">
-  <b>Prof. Duk-Jo Kong</b> (공득조)<br>
-  Vice Dean, Assistant Professor<br>
-  GIST AI Policy &amp; Strategy Graduate School (AIX School)
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="220"><a href="https://impact.gist.ac.kr/main/main.php"><img src="assets/impact_lab_logo.png" width="140" alt="IMPACT Lab"></a></td>
+    <td align="center" width="220"><a href="https://impact.gist.ac.kr/team/professor.php"><img src="assets/prof_duk-jo_kong.png" width="120" alt="Prof. Duk-Jo Kong"></a><br><b>Prof. Duk-Jo Kong</b> (공득조)<br><sub>Vice Dean, Assistant Professor<br>GIST AI Policy &amp; Strategy Graduate School</sub></td>
+  </tr>
+</table>
 
 This work was carried out at the [**IMPACT Lab**](https://impact.gist.ac.kr/main/main.php) led by Prof. Duk-Jo Kong at the Gwangju Institute of Science and Technology (GIST). We thank the members of the lab for their discussions and support throughout the project.
 
@@ -316,6 +309,12 @@ We also thank the Ministry of Culture, Sports and Tourism of the Republic of Kor
 - **설명가능 AI:** SHAP과 어텐션 분석으로 어떤 정보·시차·시기가 예측을 이끄는지 확인했습니다.
 
 **키워드:** 주가 예측, 주식 예측, 외국인 순매수 예측, 외국인 수급, 주가 방향 예측, 반도체 주가, 삼성전자, SK하이닉스, 반도체 주식, 코스피, 금융 시계열 예측, 뉴스 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), 딥러닝, 머신러닝
+
+## Keywords
+
+**Keywords:** stock prediction, stock market prediction, stock price prediction, stock direction prediction, foreign investor flows, Korean stock market (KOSPI, KOSDAQ), semiconductor stocks, Samsung Electronics, SK hynix, financial time series forecasting, deep learning, machine learning, explainable AI (XAI), SHAP, news sentiment analysis, LLM, LDA topic modeling, macroeconomic indicators, LSTM, iTransformer, LightGBM, XGBoost
+
+**🇰🇷 검색어:** 주가 예측, 주식 예측, 주가 방향 예측, 주식 시장 예측, 외국인 순매수 예측, 외국인 수급, 외국인 투자자, 반도체 주식, 반도체 주가, 삼성전자, SK하이닉스, 코스피, 코스닥, 한국 주식시장, 금융 시계열 예측, 딥러닝 주가 예측, 머신러닝, 인공지능 투자, 뉴스 감성분석, LLM 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), SHAP
 
 ## Licence
 
