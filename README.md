@@ -13,6 +13,7 @@
 [![Models](https://img.shields.io/badge/models-10-success.svg)](#models)
 [![Runs](https://img.shields.io/badge/runs-400%20main%20%2B%201%2C480%20robustness-informational.svg)](#robustness)
 
+[**Abstract**](#abstract) ·
 [**Key findings**](#key-findings) ·
 [**Design**](#experimental-design) ·
 [**Data**](#data-availability) ·
@@ -55,6 +56,10 @@
 > **Question.** Will foreign investors be **net buyers or net sellers** of Korean semiconductor stocks tomorrow — and does **news** help forecast it once **macro-financial conditions** are known?
 
 This repository holds the code, public data and aggregate results of the paper. It compares three information blocks added to the history of foreign net buying — **macro-financial variables**, **LDA news topics** and **LLM news sentiment** — in a 2³ factorial design across ten forecasting models, and explains the forecasts with SHAP.
+
+## Abstract
+
+Foreign investors are a fundamental driver of the Korean stock market, yet forecasting research has targeted prices and indices rather than their behavior. This study forecasts the next-day net-buy versus net-sell direction of foreign investors in the Korean semiconductor industry within an explainable multi-source framework. Daily net flows of 150 listed firms (2015–2026) are combined with 1.15 million domestic and international news articles, represented by latent Dirichlet allocation (LDA) topics and large language model (LLM)-derived sentiment, and with 13 release-aligned macro-financial variables. Eight feature configurations (E0–E7), forming a 2³ factorial design over the three information blocks, are evaluated across ten forecasting models with within-model and across-model significance tests. Macro-financial variables provide the only consistent gain, raising the mean out-of-sample area under the receiver operating characteristic curve (AUC) from 0.647 to 0.693 and improving nine of ten models; LLM sentiment adds no significant value and LDA topics reduce the AUC. SHapley Additive exPlanations (SHAP) trace most predictive information to recent flow history and global equity returns, with accuracy highest on large-flow days and an asymmetric response to falls in global semiconductor stocks. Foreign-investor trading in a globally integrated industry is thus most informatively tracked by combining recent trading history with global market signals, and each additional information source should be validated for its incremental value before it is adopted.
 
 <table>
   <tr>
