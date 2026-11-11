@@ -2,6 +2,19 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
 title: "Code and public data for: News-Derived versus Macro-Financial Signals"
 license: MIT
+abstract: "Code, public data and aggregate results for a study that forecasts whether foreign investors are net buyers or net sellers of Korean semiconductor stocks on the next trading day, and compares macro-financial variables, LDA news topics and LLM news sentiment as predictors across ten deep learning and tree models with SHAP-based explanations."
+keywords:
+  - foreign investor trading
+  - stock direction prediction
+  - Korean stock market
+  - semiconductor industry
+  - financial time series forecasting
+  - explainable AI
+  - SHAP
+  - news sentiment analysis
+  - LDA topic modeling
+  - large language models
+  - macro-financial variables
 repository-code: "https://github.com/parkjohn10277/News-Derived-versus-Macro-Financial-Signals"
 authors:
   - family-names: Park

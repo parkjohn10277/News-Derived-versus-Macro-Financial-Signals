@@ -47,6 +47,8 @@
 
 This repository holds the code, public data and aggregate results of the paper. The paper forecasts **whether foreign investors are net buyers or net sellers** of Korean semiconductor stocks on the next trading day. It also asks which information drives the forecast: **macro-financial variables**, **LDA news topics**, or **LLM news sentiment**.
 
+🇰🇷 **[한국어 요약](#한국어-요약)** · **Keywords:** foreign investor flows, stock direction prediction, Korean stock market (KOSPI), semiconductor stocks, financial time series forecasting, explainable AI (XAI), SHAP, news sentiment analysis, LLM, LDA topic modeling, macroeconomic indicators, LSTM, iTransformer, LightGBM, XGBoost
+
 <p align="center">
   <img src="figures/overview.png" width="100%" alt="Research framework">
 </p>
@@ -181,6 +183,20 @@ Daily predictions, model checkpoints and the model input panel are not included,
 5. **Robustness, XAI and figures.** Use `code/06_expanding_origin/`, `code/07_xai/` and `code/08_figures_tables/build_all.py`.
 
 Each model folder has its own `requirements.txt`. The main dependencies are PyTorch, scikit-learn, XGBoost, LightGBM, SHAP, gensim, kiwipiepy and pandas. Scripts use paths relative to the repository root; some have path constants at the top that you may need to adjust.
+
+## 한국어 요약
+
+**뉴스 신호 vs 거시·금융 신호: 한국 반도체 산업 외국인 투자자 매매 방향의 설명가능 예측** (Expert Systems with Applications 투고)<br/>
+박준 · Maximiliano Islas Solis · 이서현 · 공득조 (GIST AI정책전략대학원 IMPACT Lab)
+
+외국인 투자자가 **다음 거래일에 한국 반도체 주식을 순매수할지 순매도할지** 예측하고, 어떤 정보가 예측에 실제로 도움이 되는지 비교한 연구의 코드·공개 데이터·결과입니다.
+
+- **비교한 정보:** 거시·금융 변수 13개(환율, 금리 스프레드, CPI, GDP, 실업률, 반도체 생산, 경제정책 불확실성, 지정학적 위험 등), 뉴스 LDA 토픽, LLM(EXAONE 3.5) 뉴스 감성
+- **실험:** 딥러닝·트리 모델 10개(LSTM, BiLSTM, GRU-LSTM, BiGRU-LSTM, CNN-LSTM, DA-RNN, iTransformer, 랜덤 포레스트, XGBoost, LightGBM) × 특성 조합 8개 × 시드 5개 = 400회, 강건성 실험 1,480회
+- **결과:** 거시·금융 변수를 넣으면 평균 테스트 AUC가 0.647에서 0.693으로 오르고 10개 모델 중 9개가 개선됩니다. 뉴스 토픽과 LLM 감성은 추가 효과가 없었습니다. 최고 성능은 LightGBM(AUC 0.718)입니다.
+- **설명가능 AI:** SHAP과 어텐션 분석으로 어떤 정보·시차·시기가 예측을 이끄는지 확인했습니다.
+
+**키워드:** 외국인 순매수 예측, 외국인 수급, 주가 방향 예측, 반도체 주식, 코스피, 금융 시계열 예측, 뉴스 감성분석, 토픽 모델링, 거시경제 변수, 설명가능 인공지능(XAI), 딥러닝, 머신러닝
 
 ## Citation
 
